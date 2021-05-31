@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC941872664FED4004721FF /* Hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941862664FED4004721FF /* Hallway.swift */; };
+		0CC9418B266501B1004721FF /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9418A266501B1004721FF /* Background.png */; };
+		0CC9418D26650A78004721FF /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9418C26650A78004721FF /* Rooms.swift */; };
+		0CCED21926651AF8008563F2 /* FirstRoomScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CCED21826651AF8008563F2 /* FirstRoomScene.sks */; };
+		0CCED21B26651B71008563F2 /* FirstRoomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCED21A26651B71008563F2 /* FirstRoomScene.swift */; };
 		0CF4E49726610D9B00CF2973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4E49626610D9B00CF2973 /* AppDelegate.swift */; };
 		0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E49826610D9B00CF2973 /* GameScene.sks */; };
 		0CF4E49B26610D9B00CF2973 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E49A26610D9B00CF2973 /* Actions.sks */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC941862664FED4004721FF /* Hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallway.swift; sourceTree = "<group>"; };
+		0CC9418A266501B1004721FF /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		0CC9418C26650A78004721FF /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+		0CCED21826651AF8008563F2 /* FirstRoomScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirstRoomScene.sks; sourceTree = "<group>"; };
+		0CCED21A26651B71008563F2 /* FirstRoomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRoomScene.swift; sourceTree = "<group>"; };
 		0CF4E49326610D9B00CF2973 /* Panico na TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Panico na TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4E49626610D9B00CF2973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CF4E49826610D9B00CF2973 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 				0CF4E4A326610D9C00CF2973 /* Assets.xcassets */,
 				0CF4E4A526610D9C00CF2973 /* LaunchScreen.storyboard */,
 				0CF4E4A826610D9C00CF2973 /* Info.plist */,
+				0CC9418A266501B1004721FF /* Background.png */,
+				0CC941862664FED4004721FF /* Hallway.swift */,
+				0CC9418C26650A78004721FF /* Rooms.swift */,
+				0CCED21826651AF8008563F2 /* FirstRoomScene.sks */,
+				0CCED21A26651B71008563F2 /* FirstRoomScene.swift */,
 			);
 			path = "Panico na TV";
 			sourceTree = "<group>";
@@ -131,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF4E4A226610D9B00CF2973 /* Main.storyboard in Resources */,
+				0CCED21926651AF8008563F2 /* FirstRoomScene.sks in Resources */,
 				0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */,
 				0CF4E4A426610D9C00CF2973 /* Assets.xcassets in Resources */,
+				0CC9418B266501B1004721FF /* Background.png in Resources */,
 				0CF4E4A726610D9C00CF2973 /* LaunchScreen.storyboard in Resources */,
 				0CF4E49B26610D9B00CF2973 /* Actions.sks in Resources */,
 			);
@@ -145,9 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCED21B26651B71008563F2 /* FirstRoomScene.swift in Sources */,
 				0CF4E49D26610D9B00CF2973 /* GameScene.swift in Sources */,
 				0CF4E49F26610D9B00CF2973 /* GameViewController.swift in Sources */,
+				0CC941872664FED4004721FF /* Hallway.swift in Sources */,
 				0CF4E49726610D9B00CF2973 /* AppDelegate.swift in Sources */,
+				0CC9418D26650A78004721FF /* Rooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
