@@ -41,10 +41,24 @@ class GameViewController: UIViewController {
 
         swipeRecognizer.direction = .up
         self.view?.addGestureRecognizer(swipeRecognizer)
+        
+        let swipeRecognizerLeft = UISwipeGestureRecognizer(target: self, action: #selector(switchRoom(sender:)))
+        swipeRecognizerLeft.name = "left"
+        swipeRecognizerLeft.direction = .left
+        self.view?.addGestureRecognizer(swipeRecognizerLeft)
+        
+        let swipeRecognizerRight = UISwipeGestureRecognizer(target: self, action: #selector(switchRoom(sender:)))
+        swipeRecognizerRight.name = "right"
+        swipeRecognizerRight.direction = .right
+        self.view?.addGestureRecognizer(swipeRecognizerRight)
     }
     
     @objc func moveCharacter() {
         self.scene?.moveCharacter()
+    }
+    
+    @objc func switchRoom(sender: UIGestureRecognizer){
+        self.scene?.changeRoom(direction: sender.name!)
     }
     
     
