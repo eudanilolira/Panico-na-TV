@@ -37,8 +37,8 @@ class GameScene: SKScene {
 
     }
     
-    func moveCharacter() {
-        hallway!.moveCharacter()
+    func moveCharacter(leftRoomNumber: Int, rightRoomNumber: Int) {
+        hallway!.moveCharacter(leftRoom: leftRoomNumber, rightRoom: rightRoomNumber)
     }
     
     func changeRoom(direction: String){
@@ -47,11 +47,11 @@ class GameScene: SKScene {
         //Change UI
     }
     
-    func goToRoom(){
-        let sceneMoveTo = FirstRoomScene()
-        sceneMoveTo.scaleMode = .aspectFill
-        let transition = SKTransition.moveIn(with: .down, duration: 0.3)
-        view?.presentScene(sceneMoveTo ,transition: transition)
-
-    }
+//    func goToRoom(){
+//        let sceneMoveTo = FirstRoomScene()
+//        sceneMoveTo.scaleMode = .aspectFill
+//        let transition = SKTransition.moveIn(with: .down, duration: 0.3)
+//        view?.presentScene(sceneMoveTo ,transition: transition)
+//
+//    }
 }

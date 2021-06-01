@@ -12,6 +12,8 @@ import GameplayKit
 class GameViewController: UIViewController {
     
     var scene: GameScene? = nil
+    var leftRoom: Room?
+    var rightRoom: Room?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +62,11 @@ class GameViewController: UIViewController {
     }
     
     @objc func moveCharacter() {
-        self.scene?.moveCharacter()
+        let rooms = Rooms.shared.getNextRooms()
+        self.leftRoom = rooms.0
+        self.rightRoom = rooms.1
+    
+        self.scene?.moveCharacter(leftRoomNumber: leftRoom!.number, rightRoomNumber: rightRoom!.number)
     }
     
     @objc func switchRoom(sender: UIGestureRecognizer){
@@ -68,24 +74,17 @@ class GameViewController: UIViewController {
     }
     
     @objc func goToRoom(){
-        if let scene = GKScene(fileNamed: "FirstRoomScene") {
-            
-            // Get the SKScene from the loaded GKScene
-            if let sceneNode = scene.rootNode as! FirstRoomScene? {
-                
-                sceneNode.scaleMode = .aspectFill
-                
-                // Present the scene
-                if let view = self.view as! SKView? {
-                    view.presentScene(sceneNode)
-                    view.ignoresSiblingOrder = true
-                }
-            }
+        let firstObject = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
+        let secondObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
+        let thirdObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+        
+        let roomScene = RoomScene(firstObject: firstObject, secondObject: secondObject, thirdObject: thirdObject, backgroundName: "Quarto")
+        
+        if let view = self.view as! SKView? {
+            view.presentScene(roomScene)
+            view.ignoresSiblingOrder = true
         }
         
-        scene?.goToRoom()
-
+        //self.scene!.goToRoom()
     }
-    
-    
 }

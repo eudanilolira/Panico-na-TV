@@ -13,7 +13,7 @@
 		0CC9418B266501B1004721FF /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9418A266501B1004721FF /* Background.png */; };
 		0CC9418D26650A78004721FF /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9418C26650A78004721FF /* Rooms.swift */; };
 		0CCED21926651AF8008563F2 /* FirstRoomScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CCED21826651AF8008563F2 /* FirstRoomScene.sks */; };
-		0CCED21B26651B71008563F2 /* FirstRoomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCED21A26651B71008563F2 /* FirstRoomScene.swift */; };
+		0CCED21B26651B71008563F2 /* RoomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCED21A26651B71008563F2 /* RoomScene.swift */; };
 		0CF4E49726610D9B00CF2973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4E49626610D9B00CF2973 /* AppDelegate.swift */; };
 		0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E49826610D9B00CF2973 /* GameScene.sks */; };
 		0CF4E49B26610D9B00CF2973 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E49A26610D9B00CF2973 /* Actions.sks */; };
@@ -31,7 +31,7 @@
 		0CC9418A266501B1004721FF /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		0CC9418C26650A78004721FF /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
 		0CCED21826651AF8008563F2 /* FirstRoomScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirstRoomScene.sks; sourceTree = "<group>"; };
-		0CCED21A26651B71008563F2 /* FirstRoomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRoomScene.swift; sourceTree = "<group>"; };
+		0CCED21A26651B71008563F2 /* RoomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScene.swift; sourceTree = "<group>"; };
 		0CF4E49326610D9B00CF2973 /* Panico na TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Panico na TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4E49626610D9B00CF2973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CF4E49826610D9B00CF2973 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				0CC941862664FED4004721FF /* Hallway.swift */,
 				0CC9418C26650A78004721FF /* Rooms.swift */,
 				0CCED21826651AF8008563F2 /* FirstRoomScene.sks */,
-				0CCED21A26651B71008563F2 /* FirstRoomScene.swift */,
+				0CCED21A26651B71008563F2 /* RoomScene.swift */,
 				0C9BA7E026664B9100BE4760 /* Room.swift */,
 			);
 			path = "Panico na TV";
@@ -169,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCED21B26651B71008563F2 /* FirstRoomScene.swift in Sources */,
+				0CCED21B26651B71008563F2 /* RoomScene.swift in Sources */,
 				0CF4E49D26610D9B00CF2973 /* GameScene.swift in Sources */,
 				0C9BA7E126664B9100BE4760 /* Room.swift in Sources */,
 				0CF4E49F26610D9B00CF2973 /* GameViewController.swift in Sources */,
@@ -323,7 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = "Panico na TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6PW3HL3N4;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = "Panico na TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

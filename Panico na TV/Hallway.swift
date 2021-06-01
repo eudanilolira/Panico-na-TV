@@ -21,13 +21,9 @@ class Hallway: SKSpriteNode {
         
     }
     
-    func moveCharacter() {
-        let rooms = Rooms.shared.getNextRooms()
-        let leftRoom = rooms.0
-        let rightRoom = rooms.1
-        
-        leftRoomNumber.text = "Quarto \(leftRoom.number)"
-        rightRoomNumber.text = "Quarto \(rightRoom.number)"
+    func moveCharacter(leftRoom: Int, rightRoom: Int) {
+        leftRoomNumber.text = "Quarto \(leftRoom)"
+        rightRoomNumber.text = "Quarto \(rightRoom)"
         
     }
 }
