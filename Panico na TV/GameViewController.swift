@@ -28,7 +28,8 @@ class GameViewController: UIViewController {
                 
                 // Present the scene
                 if let view = self.view as! SKView? {
-                    setupUpSwipeGestureRecognizer(sceneNode)
+                    setupUpSwipeGestureRecognizer()
+                    setupTapGestureRecognizer()
                     view.presentScene(sceneNode)
                     view.ignoresSiblingOrder = true
                 }
@@ -36,7 +37,7 @@ class GameViewController: UIViewController {
         }
     }
 
-    func setupUpSwipeGestureRecognizer(_ scene: GameScene) {
+    func setupUpSwipeGestureRecognizer() {
         let swipeRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(moveCharacter))
 
         swipeRecognizer.direction = .up
@@ -53,12 +54,37 @@ class GameViewController: UIViewController {
         self.view?.addGestureRecognizer(swipeRecognizerRight)
     }
     
+    func setupTapGestureRecognizer(){
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(goToRoom))
+        self.view?.addGestureRecognizer(tapRecognizer)
+    }
+    
     @objc func moveCharacter() {
         self.scene?.moveCharacter()
     }
     
     @objc func switchRoom(sender: UIGestureRecognizer){
         self.scene?.changeRoom(direction: sender.name!)
+    }
+    
+    @objc func goToRoom(){
+        if let scene = GKScene(fileNamed: "FirstRoomScene") {
+            
+            // Get the SKScene from the loaded GKScene
+            if let sceneNode = scene.rootNode as! FirstRoomScene? {
+                
+                sceneNode.scaleMode = .aspectFill
+                
+                // Present the scene
+                if let view = self.view as! SKView? {
+                    view.presentScene(sceneNode)
+                    view.ignoresSiblingOrder = true
+                }
+            }
+        }
+        
+        scene?.goToRoom()
+
     }
     
     
