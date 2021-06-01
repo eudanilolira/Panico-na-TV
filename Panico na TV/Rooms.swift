@@ -13,7 +13,8 @@ final class Rooms {
     static let shared = Rooms()
     
     private init() {
-        for i in 0...10 {
+        //Criação de salas
+        for _ in 0...10 {
             cluesRooms.append(Room(isScary: false))
             scaryRooms.append(Room(isScary: true))
         }
@@ -48,27 +49,6 @@ final class Rooms {
     }
 }
 
-// Salas 666 e 111 são números fixos, que são as salas finais e a da pablo.
-class Room  {
-    var isOpen: Bool = false
-    var isScary: Bool = false
-    var number: Int = 000
-    
-    init(isScary: Bool) {
-        self.isScary = isScary
-        self.number = !isScary ? Int.random(in: 17...166) * 6 : getScaryRoomNumber()
-    }
-    
-    func getScaryRoomNumber() -> Int {
-        var number = 000
-        
-        while number % 6 == 0 {
-            number = Int.random(in: 17...142) * 7
-        }
-        
-        return number
-    }
-    
-}
+
 
 
