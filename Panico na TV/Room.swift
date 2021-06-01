@@ -16,7 +16,7 @@ class Room  {
     init(isScary: Bool, number: Int = 0) {
         self.isScary = isScary
         
-        if number != 0 {
+        if number == 0 {
             self.number = !isScary ? Int.random(in: 17...166) * 6 : getScaryRoomNumber()
         }
     }
