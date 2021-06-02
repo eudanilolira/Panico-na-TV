@@ -30,9 +30,10 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
-        // including entities and graphs.
+        goToHallway()
+    }
+    
+    func goToHallway() {
         if let scene = GKScene(fileNamed: "GameScene") {
             
             // Get the SKScene from the loaded GKScene
@@ -53,7 +54,7 @@ class GameViewController: UIViewController {
             }
         }
     }
-
+    
     func setupUpSwipeGestureRecognizer() {
         let swipeRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(moveCharacter))
         swipeRecognizer.direction = .up
@@ -98,10 +99,12 @@ class GameViewController: UIViewController {
     
     @objc func selectObject(){
         
+        print(scene!.name )
         if self.scene!.name == "HallwayScene" {
             if leftRoom != nil && rightRoom != nil { //DEIXAR UM VALOR INICIAL PARA OS QUARTOS
                 
                 let roomScene = hallwayScene.selectedRoom == "left" ? self.leftRoom!.roomScene : self.rightRoom!.roomScene
+                roomScene.room?.isOpen = true
                 
                 if let view = self.view as! SKView? {
                     self.scene = roomScene
@@ -112,13 +115,13 @@ class GameViewController: UIViewController {
         } else {
             switch roomScene.selectedObject {
             case .exit:
-                print("Exit")
+                goToHallway()
             case .firstObject:
-                print("First")
+                roomScene.subtitle.text = roomScene.firstObject.text
             case .secondObject:
-                print("Second")
+                roomScene.subtitle.text = roomScene.secondObject.text
             case .thirdObject:
-                print("Third")
+                roomScene.subtitle.text = roomScene.thirdObject.text
             }
         }
 

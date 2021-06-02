@@ -23,13 +23,16 @@ class RoomScene: SKScene {
                 removeObjectBorders()
                 thirdObject.drawBorder(color: .red, width: 5)
             default:
-                print("Teste")
+                removeObjectBorders()
+                exit.fontColor = .red
             }
         }
     }
     var firstObject: SceneObject
     var secondObject: SceneObject
     var thirdObject: SceneObject
+    var exit: SKLabelNode = SKLabelNode(text: "Sair do quarto")
+    
     var background: SKSpriteNode
     var subtitle: SKLabelNode = SKLabelNode(text: "Olá, estou testando")
     
@@ -57,6 +60,7 @@ class RoomScene: SKScene {
         self.addChild(secondObject)
         self.addChild(thirdObject)
         self.addChild(subtitle)
+        self.addChild(exit)
     }
     
     func setupStyle(){
@@ -69,12 +73,18 @@ class RoomScene: SKScene {
         self.subtitle.fontSize = 30
         self.subtitle.fontColor = .white
         self.subtitle.zPosition = 3
+        
+        self.exit.position = CGPoint(x: 100, y: 500)
+        self.exit.fontSize = 30
+        self.exit.fontColor = .white
+        self.exit.zPosition = 4
     }
     
     func removeObjectBorders() {
         self.firstObject.removeAllChildren()
         self.secondObject.removeAllChildren()
         self.thirdObject.removeAllChildren()
+        self.exit.fontColor = .white
     }
 }
 

@@ -32,6 +32,7 @@ class GameScene: SKScene {
         hallway = self.childNode(withName: "MyHallway") as! Hallway
         leftLabel = hallway!.childNode(withName: "leftRoomNumber") as! SKLabelNode
         rightLabel = hallway!.childNode(withName: "rightRoomNumber") as! SKLabelNode
+        Rooms.shared.getNextRooms()
     }
     
     override func update(_ currentTime: TimeInterval) {

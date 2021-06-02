@@ -18,15 +18,15 @@ final class Rooms {
     
     private init() {
         
-        let firstObject = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
-        let secondObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
-        let thirdObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+        let firstObject = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 300), size: CGSize(width: 100, height: 100))
+        let secondObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 300, y: 300), size: CGSize(width: 100, height: 100))
+        let thirdObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 400), size: CGSize(width: 100, height: 100))
         
         let roomScene = RoomScene(firstObject: firstObject, secondObject: secondObject, thirdObject: thirdObject, backgroundName: "Quarto")
         
-        let firstObject1 = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
-        let secondObject1 = SceneObject(text: "Testando", imageName: "Background", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
-        let thirdObject1 = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+        let firstObject1 = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 300), size: CGSize(width: 100, height: 100))
+        let secondObject1 = SceneObject(text: "Testando", imageName: "Background", pos: CGPoint(x: 300, y: 300), size: CGSize(width: 100, height: 100))
+        let thirdObject1 = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 400), size: CGSize(width: 100, height: 100))
         
         let roomScene1 = RoomScene(firstObject: firstObject1, secondObject: secondObject1, thirdObject: thirdObject1, backgroundName: "Background")
         
