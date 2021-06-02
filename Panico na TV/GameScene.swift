@@ -20,7 +20,6 @@ class GameScene: SKScene {
             if (selectedRoom == "left"){
                 leftLabel.fontColor = .blue
                 rightLabel.fontColor = .white
-
                 
             }else{
                 rightLabel.fontColor = .blue
@@ -33,17 +32,13 @@ class GameScene: SKScene {
         hallway = self.childNode(withName: "MyHallway") as! Hallway
         leftLabel = hallway!.childNode(withName: "leftRoomNumber") as! SKLabelNode
         rightLabel = hallway!.childNode(withName: "rightRoomNumber") as! SKLabelNode
-
-
     }
     
-    func moveCharacter(leftRoomNumber: Int, rightRoomNumber: Int) {
-        hallway!.moveCharacter(leftRoom: leftRoomNumber, rightRoom: rightRoomNumber)
+    override func update(_ currentTime: TimeInterval) {
+        hallway!.moveCharacter(leftRoom: Rooms.shared.leftRoomNumber, rightRoom: Rooms.shared.rightRoomNumber)
     }
     
     func changeRoom(direction: String){
         selectedRoom = direction
-        
-        //Change UI
     }
 }

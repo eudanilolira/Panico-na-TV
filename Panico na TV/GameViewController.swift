@@ -78,12 +78,8 @@ class GameViewController: UIViewController {
     @objc func moveCharacter() {
         let rooms = Rooms.shared.getNextRooms()
         
-        //Seleção de novos quartos
         self.leftRoom = rooms.0
         self.rightRoom = rooms.1
-        
-        //Mostrar o número do quarto na tela
-        hallwayScene.moveCharacter(leftRoomNumber: leftRoom!.number, rightRoomNumber: rightRoom!.number)
     }
     
     @objc func swipeNavigation(sender: UIGestureRecognizer){

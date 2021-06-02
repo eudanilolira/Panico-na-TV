@@ -10,6 +10,10 @@ import SpriteKit
 final class Rooms {
     private var cluesRooms: [Room] = []
     private var scaryRooms: [Room] = []
+    
+    var leftRoomNumber: Int = 0
+    var rightRoomNumber: Int = 0
+    
     static let shared = Rooms()
     
     private init() {
@@ -48,6 +52,9 @@ final class Rooms {
         } else if !rightRoom {
             returnRightRoom = clueRoom
         }
+        
+        self.rightRoomNumber = returnRightRoom.number
+        self.leftRoomNumber = returnLeftRoom.number
         
         return (returnLeftRoom, returnRightRoom)
     }
