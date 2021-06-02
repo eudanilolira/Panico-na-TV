@@ -4,7 +4,7 @@
 //
 //  Created by Danilo Araújo on 31/05/21.
 //
-import Foundation
+import SpriteKit
 
 
 final class Rooms {
@@ -13,11 +13,23 @@ final class Rooms {
     static let shared = Rooms()
     
     private init() {
-        //Criação de salas
-        for _ in 0...10 {
-            cluesRooms.append(Room(isScary: false))
-            scaryRooms.append(Room(isScary: true))
-        }
+        
+        let firstObject = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
+        let secondObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
+        let thirdObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+        
+        let roomScene = RoomScene(firstObject: firstObject, secondObject: secondObject, thirdObject: thirdObject, backgroundName: "Quarto")
+        
+        let firstObject1 = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
+        let secondObject1 = SceneObject(text: "Testando", imageName: "Background", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
+        let thirdObject1 = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+        
+        let roomScene1 = RoomScene(firstObject: firstObject1, secondObject: secondObject1, thirdObject: thirdObject1, backgroundName: "Background")
+        
+        
+        cluesRooms.append(Room(isScary: false, roomScene: roomScene))
+        scaryRooms.append(Room(isScary: true, roomScene: roomScene1))
+        
     }
     
     func getNextRooms() -> (Room, Room) {

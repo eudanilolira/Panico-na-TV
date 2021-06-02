@@ -12,9 +12,11 @@ class Room  {
     var isOpen: Bool = false
     var isScary: Bool = false
     var number: Int = 000
+    var roomScene: RoomScene
     
-    init(isScary: Bool, number: Int = 0) {
+    init(isScary: Bool, number: Int = 0, roomScene: RoomScene) {
         self.isScary = isScary
+        self.roomScene = roomScene
         
         if number == 0 {
             self.number = !isScary ? Int.random(in: 17...166) * 6 : getScaryRoomNumber()

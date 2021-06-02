@@ -11,9 +11,22 @@ import GameplayKit
 
 class GameViewController: UIViewController {
     
-    var scene: GameScene? = nil
+    var scene: SKScene? = nil
     var leftRoom: Room?
     var rightRoom: Room?
+    
+    var hallwayScene: GameScene {
+        get {
+            scene as! GameScene
+        }
+    }
+    
+    var roomScene: RoomScene {
+        get {
+            scene as! RoomScene
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +38,9 @@ class GameViewController: UIViewController {
             // Get the SKScene from the loaded GKScene
             if let sceneNode = scene.rootNode as! GameScene? {
                 
+                sceneNode.name = "HallwayScene"
                 self.scene = sceneNode
+                
                 sceneNode.scaleMode = .aspectFill
                 
                 // Present the scene
@@ -41,50 +56,75 @@ class GameViewController: UIViewController {
 
     func setupUpSwipeGestureRecognizer() {
         let swipeRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(moveCharacter))
-
         swipeRecognizer.direction = .up
         self.view?.addGestureRecognizer(swipeRecognizer)
         
-        let swipeRecognizerLeft = UISwipeGestureRecognizer(target: self, action: #selector(switchRoom(sender:)))
+        let swipeRecognizerLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeNavigation(sender:)))
         swipeRecognizerLeft.name = "left"
         swipeRecognizerLeft.direction = .left
         self.view?.addGestureRecognizer(swipeRecognizerLeft)
         
-        let swipeRecognizerRight = UISwipeGestureRecognizer(target: self, action: #selector(switchRoom(sender:)))
+        let swipeRecognizerRight = UISwipeGestureRecognizer(target: self, action: #selector(swipeNavigation(sender:)))
         swipeRecognizerRight.name = "right"
         swipeRecognizerRight.direction = .right
         self.view?.addGestureRecognizer(swipeRecognizerRight)
     }
     
     func setupTapGestureRecognizer(){
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(goToRoom))
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(selectObject))
         self.view?.addGestureRecognizer(tapRecognizer)
     }
     
     @objc func moveCharacter() {
         let rooms = Rooms.shared.getNextRooms()
+        
+        //Seleção de novos quartos
         self.leftRoom = rooms.0
         self.rightRoom = rooms.1
-    
-        self.scene?.moveCharacter(leftRoomNumber: leftRoom!.number, rightRoomNumber: rightRoom!.number)
+        
+        //Mostrar o número do quarto na tela
+        hallwayScene.moveCharacter(leftRoomNumber: leftRoom!.number, rightRoomNumber: rightRoom!.number)
     }
     
-    @objc func switchRoom(sender: UIGestureRecognizer){
-        self.scene?.changeRoom(direction: sender.name!)
-    }
-    
-    @objc func goToRoom(){
-        let firstObject = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 500), size: CGSize(width: 100, height: 100))
-        let secondObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 300, y: 100), size: CGSize(width: 100, height: 100))
-        let thirdObject = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 50), size: CGSize(width: 100, height: 100))
+    @objc func swipeNavigation(sender: UIGestureRecognizer){
         
-        let roomScene = RoomScene(firstObject: firstObject, secondObject: secondObject, thirdObject: thirdObject, backgroundName: "Quarto")
-        
-        if let view = self.view as! SKView? {
-            view.presentScene(roomScene)
-            view.ignoresSiblingOrder = true
+        if self.scene!.name == "HallwayScene" {
+            hallwayScene.changeRoom(direction: sender.name!)
+        } else {
+            if sender.name! == "right" {
+                self.roomScene.selectedObject = roomScene.selectedObject.next()
+            } else {
+                self.roomScene.selectedObject = roomScene.selectedObject.previous()
+            }
         }
         
-        //self.scene!.goToRoom()
+    }
+    
+    @objc func selectObject(){
+        
+        if self.scene!.name == "HallwayScene" {
+            if leftRoom != nil && rightRoom != nil { //DEIXAR UM VALOR INICIAL PARA OS QUARTOS
+                
+                let roomScene = hallwayScene.selectedRoom == "left" ? self.leftRoom!.roomScene : self.rightRoom!.roomScene
+                
+                if let view = self.view as! SKView? {
+                    self.scene = roomScene
+                    view.presentScene(roomScene)
+                    view.ignoresSiblingOrder = true
+                }
+            }
+        } else {
+            switch roomScene.selectedObject {
+            case .exit:
+                print("Exit")
+            case .firstObject:
+                print("First")
+            case .secondObject:
+                print("Second")
+            case .thirdObject:
+                print("Third")
+            }
+        }
+
     }
 }

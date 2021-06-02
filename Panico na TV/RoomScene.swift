@@ -10,6 +10,23 @@ import SpriteKit
 
 class RoomScene: SKScene {
     var room: Room? = nil
+    var selectedObject: SelectObject = .exit {
+        didSet {
+            switch selectedObject {
+            case .firstObject:
+                removeObjectBorders()
+                firstObject.drawBorder(color: .red, width: 5)
+            case .secondObject:
+                removeObjectBorders()
+                secondObject.drawBorder(color: .red, width: 5)
+            case .thirdObject:
+                removeObjectBorders()
+                thirdObject.drawBorder(color: .red, width: 5)
+            default:
+                print("Teste")
+            }
+        }
+    }
     var firstObject: SceneObject
     var secondObject: SceneObject
     var thirdObject: SceneObject
@@ -42,7 +59,6 @@ class RoomScene: SKScene {
         self.addChild(subtitle)
     }
     
-
     func setupStyle(){
         background.scale(to: CGSize(width: 1024, height: 576))
         background.anchorPoint = CGPoint(x: 0, y: 0)
@@ -53,6 +69,12 @@ class RoomScene: SKScene {
         self.subtitle.fontSize = 30
         self.subtitle.fontColor = .white
         self.subtitle.zPosition = 3
+    }
+    
+    func removeObjectBorders() {
+        self.firstObject.removeAllChildren()
+        self.secondObject.removeAllChildren()
+        self.thirdObject.removeAllChildren()
     }
 }
 
@@ -76,3 +98,37 @@ class SceneObject: SKSpriteNode {
     }
 }
 
+extension SceneObject {
+    func drawBorder(color: UIColor, width: CGFloat) {
+        let shapeNode = SKShapeNode(rectOf: size)
+        shapeNode.fillColor = .clear
+        shapeNode.strokeColor = color
+        shapeNode.lineWidth = width
+        shapeNode.zPosition = 101
+        shapeNode.name = "Border"
+        self.zPosition = 100
+        addChild(shapeNode)
+    }
+}
+
+
+enum SelectObject: CaseIterable{
+    case exit, firstObject, secondObject, thirdObject
+}
+
+extension CaseIterable where Self: Equatable, AllCases: BidirectionalCollection {
+    func next() -> Self {
+        let all = Self.allCases
+        let idx = all.firstIndex(of: self)!
+        let next = all.index(after: idx)
+        return all[next >= all.endIndex ? idx : next]
+    }
+    
+    func previous() -> Self {
+        let all = Self.allCases
+        let idx = all.firstIndex(of: self)!
+        let previous = all.index(before: idx)
+        return all[previous < all.startIndex ? all.startIndex : previous]
+    }
+    
+}
