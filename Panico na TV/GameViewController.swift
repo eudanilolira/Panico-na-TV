@@ -31,6 +31,14 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         goToHallway()
+        
+        let backgroundSound = SKAudioNode(fileNamed: "Background Music.mp3")
+        self.scene!.addChild(backgroundSound)
+        backgroundSound.run(SKAction.play())
+        
+        let pianoBackground = SKAudioNode(fileNamed: "Piano Background.mp3")
+        self.scene!.addChild(pianoBackground)
+        pianoBackground.run(SKAction.play())
     }
     
     func goToHallway() {
@@ -98,10 +106,8 @@ class GameViewController: UIViewController {
     }
     
     @objc func selectObject(){
-        
-        print(scene!.name )
         if self.scene!.name == "HallwayScene" {
-            if leftRoom != nil && rightRoom != nil { //DEIXAR UM VALOR INICIAL PARA OS QUARTOS
+            if leftRoom != nil && rightRoom != nil {
                 
                 let roomScene = hallwayScene.selectedRoom == "left" ? self.leftRoom!.roomScene : self.rightRoom!.roomScene
                 roomScene.room?.isOpen = true

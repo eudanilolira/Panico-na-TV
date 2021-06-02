@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3D7BAB2667CB6B00EBE927 /* Background Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */; };
+		0C3D7BAD2667CC5200EBE927 /* Piano Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */; };
 		0C9BA7E126664B9100BE4760 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E026664B9100BE4760 /* Room.swift */; };
 		0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E226664D0E00BE4760 /* Quarto.png */; };
 		0CC941872664FED4004721FF /* Hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941862664FED4004721FF /* Hallway.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background Music.mp3"; sourceTree = "<group>"; };
+		0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Piano Background.mp3"; sourceTree = "<group>"; };
 		0C9BA7E026664B9100BE4760 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		0C9BA7E226664D0E00BE4760 /* Quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quarto.png; sourceTree = "<group>"; };
 		0CC941862664FED4004721FF /* Hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallway.swift; sourceTree = "<group>"; };
@@ -84,7 +88,9 @@
 				0CF4E4A526610D9C00CF2973 /* LaunchScreen.storyboard */,
 				0CF4E4A826610D9C00CF2973 /* Info.plist */,
 				0C9BA7E226664D0E00BE4760 /* Quarto.png */,
+				0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */,
 				0CC9418A266501B1004721FF /* Background.png */,
+				0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */,
 				0CC941862664FED4004721FF /* Hallway.swift */,
 				0CC9418C26650A78004721FF /* Rooms.swift */,
 				0CCED21826651AF8008563F2 /* FirstRoomScene.sks */,
@@ -154,7 +160,9 @@
 				0CF4E4A226610D9B00CF2973 /* Main.storyboard in Resources */,
 				0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */,
 				0CCED21926651AF8008563F2 /* FirstRoomScene.sks in Resources */,
+				0C3D7BAB2667CB6B00EBE927 /* Background Music.mp3 in Resources */,
 				0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */,
+				0C3D7BAD2667CC5200EBE927 /* Piano Background.mp3 in Resources */,
 				0CF4E4A426610D9C00CF2973 /* Assets.xcassets in Resources */,
 				0CC9418B266501B1004721FF /* Background.png in Resources */,
 				0CF4E4A726610D9C00CF2973 /* LaunchScreen.storyboard in Resources */,
