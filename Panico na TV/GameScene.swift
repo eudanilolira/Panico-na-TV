@@ -18,11 +18,11 @@ class GameScene: SKScene {
     var selectedRoom: String = "left" {
         didSet{
             if (selectedRoom == "left"){
-                leftLabel.fontColor = .blue
+                leftLabel.fontColor = .red
                 rightLabel.fontColor = .white
                 
             }else{
-                rightLabel.fontColor = .blue
+                rightLabel.fontColor = .red
                 leftLabel.fontColor = .white
             }
         }
@@ -36,6 +36,9 @@ class GameScene: SKScene {
         
         leftLabel.fontSize = 150
         rightLabel.fontSize = 150
+        
+        leftLabel.zPosition = 10000
+        rightLabel.zPosition = 10000
     }
     
     override func update(_ currentTime: TimeInterval) {

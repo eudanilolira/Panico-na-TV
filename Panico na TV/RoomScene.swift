@@ -31,9 +31,8 @@ class RoomScene: SKScene {
     var firstObject: SceneObject
     var secondObject: SceneObject?
     var thirdObject: SceneObject?
-    var exit: SKLabelNode = SKLabelNode(text: "Sair do quarto")
-    
     var background: SKSpriteNode
+    var exit: SKLabelNode = SKLabelNode(text: "Sair do quarto")
     var subtitle: SKLabelNode = SKLabelNode(text: "Olá, estou testando")
     
     public init(firstObject: SceneObject, secondObject: SceneObject? = nil, thirdObject: SceneObject? = nil, backgroundName: String) {
@@ -43,9 +42,8 @@ class RoomScene: SKScene {
         self.secondObject = secondObject
         self.thirdObject = thirdObject
         self.background = SKSpriteNode(imageNamed: backgroundName)
-        
-        
         super.init(size: frame.size)
+        
         self.scaleMode = .aspectFill
         self.setupStyle()
         self.setupChildNodes()
@@ -90,6 +88,11 @@ class RoomScene: SKScene {
     }
     
     func setupStyle(){
+        self.firstObject.zPosition = 1000
+        self.secondObject?.zPosition = 1000
+        self.thirdObject?.zPosition = 1000
+        self.exit.zPosition = 1000
+        
         background.scale(to: CGSize(width: 1024, height: 576))
         background.anchorPoint = CGPoint(x: 0, y: 0)
         background.position = CGPoint(x: 0, y: 0)
@@ -98,12 +101,11 @@ class RoomScene: SKScene {
         self.subtitle.text = self.firstObject.text //CÓDIGO TEMPORARIO
         self.subtitle.fontSize = 30
         self.subtitle.fontColor = .white
-        self.subtitle.zPosition = 3
+        self.subtitle.zPosition = 10005
         
         self.exit.position = CGPoint(x: 100, y: 500)
-        self.exit.fontSize = 30
+        self.exit.fontSize = 25
         self.exit.fontColor = .white
-        self.exit.zPosition = 4
     }
     
     func removeObjectBorders() {

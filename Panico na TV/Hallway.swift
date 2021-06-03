@@ -24,6 +24,5 @@ class Hallway: SKSpriteNode {
     func moveCharacter(leftRoom: Int, rightRoom: Int) {
         leftRoomNumber.text = "Quarto \(leftRoom)"
         rightRoomNumber.text = "Quarto \(rightRoom)"
-        
     }
 }

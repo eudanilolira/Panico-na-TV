@@ -102,6 +102,7 @@
 		0C3D7C622667CFCE00EBE927 /* Hallway02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C082667CFCE00EBE927 /* Hallway02.jpg */; };
 		0C9BA7E126664B9100BE4760 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E026664B9100BE4760 /* Room.swift */; };
 		0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E226664D0E00BE4760 /* Quarto.png */; };
+		0CA4D3D4266914E3003FA646 /* VideoQuebrando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */; };
 		0CC941872664FED4004721FF /* Hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941862664FED4004721FF /* Hallway.swift */; };
 		0CC9418B266501B1004721FF /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9418A266501B1004721FF /* Background.png */; };
 		0CC9418D26650A78004721FF /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9418C26650A78004721FF /* Rooms.swift */; };
@@ -213,6 +214,7 @@
 		0C3D7C082667CFCE00EBE927 /* Hallway02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway02.jpg; sourceTree = "<group>"; };
 		0C9BA7E026664B9100BE4760 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		0C9BA7E226664D0E00BE4760 /* Quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quarto.png; sourceTree = "<group>"; };
+		0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VideoQuebrando.mp3; sourceTree = "<group>"; };
 		0CC941862664FED4004721FF /* Hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallway.swift; sourceTree = "<group>"; };
 		0CC9418A266501B1004721FF /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		0CC9418C26650A78004721FF /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 				0C1AA0362668FE200019D14D /* cadeira_bamboo.jpg */,
 				0C9BA7E226664D0E00BE4760 /* Quarto.png */,
 				0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */,
+				0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */,
 				0CC9418A266501B1004721FF /* Background.png */,
 				0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */,
 				0CC941862664FED4004721FF /* Hallway.swift */,
@@ -520,6 +523,7 @@
 				0C3D7C142667CFCE00EBE927 /* Hallway21.jpg in Resources */,
 				0C3D7C302667CFCE00EBE927 /* Hallway80.jpg in Resources */,
 				0C3D7C492667CFCE00EBE927 /* Hallway60.jpg in Resources */,
+				0CA4D3D4266914E3003FA646 /* VideoQuebrando.mp3 in Resources */,
 				0C3D7C3B2667CFCE00EBE927 /* Hallway71.jpg in Resources */,
 				0C3D7C192667CFCE00EBE927 /* Hallway22.jpg in Resources */,
 				0C3D7C452667CFCE00EBE927 /* Hallway63.jpg in Resources */,
