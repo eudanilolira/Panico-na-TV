@@ -95,12 +95,16 @@ class GameViewController: UIViewController {
     }
     
     @objc func moveCharacter() {
-        let rooms = Rooms.shared.getNextRooms()
         
-        self.leftRoom = rooms.0
-        self.rightRoom = rooms.1
+        if self.scene!.name == "HallwayScene" {
+            let rooms = Rooms.shared.getNextRooms()
+            
+            self.leftRoom = rooms.0
+            self.rightRoom = rooms.1
         
-        hallwayScene.hallway?.run(self.walkAnimation!)
+            hallwayScene.hallway?.run(self.walkAnimation!)
+            
+        }
     }
     
     @objc func swipeNavigation(sender: UIGestureRecognizer){

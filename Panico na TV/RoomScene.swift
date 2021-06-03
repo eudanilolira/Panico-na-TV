@@ -50,11 +50,20 @@ class RoomScene: SKScene {
     }
     
     override func sceneDidLoad() {
+        let pianoSound = SKAction.repeatForever(SKAction.playSoundFileNamed("Piano Background.mp3", waitForCompletion: true))
+        self.run(pianoSound, withKey: "musicSound")
+        print("OLHA A CENA \(self.name)")
         if let hasAnimation = firstObject.animation {
             
             if let hasSoundFx = firstObject.soundFX {
-                let sound = SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: false)
-                self.run(sound, withKey: "scarySound")
+                
+                if(firstObject.loopSound ?? false){
+                    let sound = SKAction.repeatForever(SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: true))
+                    self.run(sound, withKey: "scarySound")
+                }else{
+                    let sound = SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: false)
+                    self.run(sound, withKey: "scarySound")
+                }
             }
             
             self.subtitle.isHidden = true
@@ -123,7 +132,7 @@ class SceneObject: SKSpriteNode {
      var soundFX: String?
      var loopSound: Bool?
      
-     init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: [SKAction]? = nil, soundFX: String? = nil, loopSound: Bool? = nil) {
+     init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: [SKAction]? = nil, soundFX: String? = nil, loopSound: Bool? = false) {
          let texture = SKTexture(imageNamed: imageName)
          self.text = text
          self.animation = animation
@@ -131,6 +140,8 @@ class SceneObject: SKSpriteNode {
          self.loopSound = loopSound
          super.init(texture: texture, color: .black, size: size)
          self.position = pos
+        print("OLHA A object \(self.name)")
+
      }
     
     required init?(coder aDecoder: NSCoder) {

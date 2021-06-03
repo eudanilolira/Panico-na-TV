@@ -23,7 +23,7 @@ final class Rooms {
         let animation2 = SKAction.rotate(byAngle: 30, duration: 3)
         let animation3 = SKAction.rotate(byAngle: 180, duration: 1)
         
-        let firstObject = SceneObject(text: "Nossa, acho que o vento está muito forte!", imageName: "cadeira_bamboo.jpg", pos: CGPoint(x: 100, y: 300), size: CGSize(width: 360, height: 360), animation: [animation, animation2, animation3], soundFX: "Piano Background.mp3")
+        let firstObject = SceneObject(text: "Nossa, acho que o vento está muito forte!", imageName: "cadeira_bamboo.jpg", pos: CGPoint(x: 100, y: 300), size: CGSize(width: 360, height: 360), animation: [animation, animation2, animation3])
         
         firstObject.setScale(0.5)
 //
@@ -64,11 +64,11 @@ final class Rooms {
                    elaineTextures.append(elaineTexture)
                }
                
-               let elaineAnimation = SKAction.repeatForever(SKAction.animate(with: elaineTextures, timePerFrame: 0.1, resize: false, restore: true))
+               let elaineAnimation = SKAction.repeatForever(SKAction.animate(with: elaineTextures, timePerFrame: 0.03, resize: false, restore: true))
                
                let elaineObject = SceneObject(text: "", imageName: "fr0.png", pos: CGPoint(x: 500, y: 250), size: CGSize(width: 100, height: 160), animation: [elaineAnimation], soundFX: "gritinho.mp3", loopSound: true)
                let elaineRoomScene = RoomScene(firstObject: elaineObject, backgroundName: "Quarto")
-
+                elaineRoomScene.name = "ELine"
 
 
         
