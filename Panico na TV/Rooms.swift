@@ -78,12 +78,21 @@ final class Rooms {
                let elaineRoomScene = RoomScene(firstObject: elaineObject, backgroundName: "Quarto")
                 elaineRoomScene.name = "ELine"
 
+        let firstObject3 = SceneObject(text: "não, não! O pior aconteceu, nosso maior medo, nosso maior pânico, o Mac… \n o Mac quebrou… isso quer dizer que não vai rolar fim do challenge, \n não vai rolar, FIM DO JOGO.", imageName: "mac.jpg", pos: CGPoint(x: 200, y: 300), size: CGSize(width: 100 , height: 100), soundFX: "scream.mp3")
+        //firstObject3.setScale(0.1)
+        
+        
+        
+        let fourthRoom = RoomScene(firstObject: firstObject3, backgroundName: "Quarto3")
+        fourthRoom.subtitle.fontSize = 20
 
         
         cluesRooms.append(Room(isScary: false, roomScene: firstRoom))
-        scaryRooms.append(Room(isScary: true, roomScene: secondRoom))
-        scaryRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
-        scaryRooms.append(Room(isScary: true, roomScene: thirdRoom))
+//        scaryRooms.append(Room(isScary: true, roomScene: secondRoom))
+//        scaryRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
+//        scaryRooms.append(Room(isScary: true, roomScene: thirdRoom))
+        scaryRooms.append(Room(isScary: true, roomScene: fourthRoom))
+
 
 
         

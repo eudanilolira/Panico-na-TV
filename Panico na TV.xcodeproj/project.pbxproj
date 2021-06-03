@@ -118,6 +118,7 @@
 		0CF4E4A726610D9C00CF2973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E4A526610D9C00CF2973 /* LaunchScreen.storyboard */; };
 		869F8A3226691CA300416A0E /* gritinho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F8A3126691CA300416A0E /* gritinho.mp3 */; };
 		869F8A342669248C00416A0E /* yukee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F8A332669248C00416A0E /* yukee.mp3 */; };
+		869F8A3626692EC300416A0E /* scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F8A3526692EC300416A0E /* scream.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +235,7 @@
 		0CF4E4A826610D9C00CF2973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869F8A3126691CA300416A0E /* gritinho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gritinho.mp3; sourceTree = "<group>"; };
 		869F8A332669248C00416A0E /* yukee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yukee.mp3; sourceTree = "<group>"; };
+		869F8A3526692EC300416A0E /* scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +365,7 @@
 		0CF4E49526610D9B00CF2973 /* Panico na TV */ = {
 			isa = PBXGroup;
 			children = (
+				869F8A3526692EC300416A0E /* scream.mp3 */,
 				869F8A332669248C00416A0E /* yukee.mp3 */,
 				0CF4E49626610D9B00CF2973 /* AppDelegate.swift */,
 				0CF4E49826610D9B00CF2973 /* GameScene.sks */,
@@ -493,6 +496,7 @@
 				0C3D7C0D2667CFCE00EBE927 /* Hallway18.jpg in Resources */,
 				0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */,
 				0C3D7C542667CFCE00EBE927 /* Hallway11.jpg in Resources */,
+				869F8A3626692EC300416A0E /* scream.mp3 in Resources */,
 				0C3D7C252667CFCE00EBE927 /* Hallway84.jpg in Resources */,
 				0C3D7C3C2667CFCE00EBE927 /* Hallway70.jpg in Resources */,
 				0C3D7C5B2667CFCE00EBE927 /* Hallway28.jpg in Resources */,
