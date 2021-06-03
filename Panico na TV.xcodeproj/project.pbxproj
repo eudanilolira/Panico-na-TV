@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1AA0372668FE200019D14D /* cadeira_bamboo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AA0362668FE200019D14D /* cadeira_bamboo.jpg */; };
 		0C3D7BAB2667CB6B00EBE927 /* Background Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */; };
 		0C3D7BAD2667CC5200EBE927 /* Piano Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */; };
 		0C3D7C092667CFCE00EBE927 /* Hallway27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAF2667CFCD00EBE927 /* Hallway27.jpg */; };
@@ -117,6 +118,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1AA0362668FE200019D14D /* cadeira_bamboo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cadeira_bamboo.jpg; sourceTree = "<group>"; };
 		0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background Music.mp3"; sourceTree = "<group>"; };
 		0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Piano Background.mp3"; sourceTree = "<group>"; };
 		0C3D7BAF2667CFCD00EBE927 /* Hallway27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway27.jpg; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				0CF4E4A326610D9C00CF2973 /* Assets.xcassets */,
 				0CF4E4A526610D9C00CF2973 /* LaunchScreen.storyboard */,
 				0CF4E4A826610D9C00CF2973 /* Info.plist */,
+				0C1AA0362668FE200019D14D /* cadeira_bamboo.jpg */,
 				0C9BA7E226664D0E00BE4760 /* Quarto.png */,
 				0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */,
 				0CC9418A266501B1004721FF /* Background.png */,
@@ -442,6 +445,7 @@
 				0C3D7C0A2667CFCE00EBE927 /* Hallway33.jpg in Resources */,
 				0C3D7C4E2667CFCE00EBE927 /* Hallway61.jpg in Resources */,
 				0C3D7C122667CFCE00EBE927 /* Hallway19.jpg in Resources */,
+				0C1AA0372668FE200019D14D /* cadeira_bamboo.jpg in Resources */,
 				0C3D7C462667CFCE00EBE927 /* Hallway62.jpg in Resources */,
 				0C3D7C5F2667CFCE00EBE927 /* Hallway03.jpg in Resources */,
 				0C3D7C262667CFCE00EBE927 /* Hallway53.jpg in Resources */,

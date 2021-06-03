@@ -18,10 +18,10 @@ class RoomScene: SKScene {
                 firstObject.drawBorder(color: .red, width: 5)
             case .secondObject:
                 removeObjectBorders()
-                secondObject.drawBorder(color: .red, width: 5)
+                secondObject?.drawBorder(color: .red, width: 5)
             case .thirdObject:
                 removeObjectBorders()
-                thirdObject.drawBorder(color: .red, width: 5)
+                thirdObject?.drawBorder(color: .red, width: 5)
             default:
                 removeObjectBorders()
                 exit.fontColor = .red
@@ -29,20 +29,21 @@ class RoomScene: SKScene {
         }
     }
     var firstObject: SceneObject
-    var secondObject: SceneObject
-    var thirdObject: SceneObject
+    var secondObject: SceneObject?
+    var thirdObject: SceneObject?
     var exit: SKLabelNode = SKLabelNode(text: "Sair do quarto")
     
     var background: SKSpriteNode
     var subtitle: SKLabelNode = SKLabelNode(text: "Olá, estou testando")
     
-    public init(firstObject: SceneObject, secondObject: SceneObject, thirdObject: SceneObject, backgroundName: String) {
+    public init(firstObject: SceneObject, secondObject: SceneObject? = nil, thirdObject: SceneObject? = nil, backgroundName: String) {
         let frame = CGRect(x:0, y:0, width: 1024, height: 576)
         
         self.firstObject = firstObject
         self.secondObject = secondObject
         self.thirdObject = thirdObject
         self.background = SKSpriteNode(imageNamed: backgroundName)
+        
         
         super.init(size: frame.size)
         self.scaleMode = .aspectFill
@@ -52,9 +53,19 @@ class RoomScene: SKScene {
     
     override func sceneDidLoad() {
         if let hasAnimation = firstObject.animation {
-            secondObject.isHidden = true
-            thirdObject.isHidden = true
-            firstObject.run(hasAnimation)
+            
+            if let hasSoundFx = firstObject.soundFX {
+                let sound = SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: false)
+                self.run(sound, withKey: "scarySound")
+            }
+            
+            self.subtitle.isHidden = true
+            self.exit.isHidden = true
+            
+            firstObject.run(SKAction.sequence(hasAnimation), completion: {
+                self.subtitle.isHidden = false
+                self.exit.isHidden = false
+            })
         }
     }
 
@@ -65,8 +76,15 @@ class RoomScene: SKScene {
     func setupChildNodes() {
         self.addChild(background)
         self.addChild(firstObject)
-        self.addChild(secondObject)
-        self.addChild(thirdObject)
+        
+        if let second = secondObject {
+            self.addChild(second)
+        }
+        
+        if let third = thirdObject {
+            self.addChild(third)
+        }
+        
         self.addChild(subtitle)
         self.addChild(exit)
     }
@@ -90,8 +108,8 @@ class RoomScene: SKScene {
     
     func removeObjectBorders() {
         self.firstObject.removeAllChildren()
-        self.secondObject.removeAllChildren()
-        self.thirdObject.removeAllChildren()
+        self.secondObject?.removeAllChildren()
+        self.thirdObject?.removeAllChildren()
         self.exit.fontColor = .white
     }
 }
@@ -99,16 +117,17 @@ class RoomScene: SKScene {
 
 class SceneObject: SKSpriteNode {
     var text: String
-    var animation: SKAction? = nil
-    init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: SKAction? = nil) {
+    var animation: [SKAction]? = nil
+    var soundFX: String?
+    
+    init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: [SKAction]? = nil, soundFX: String? = nil) {
         let texture = SKTexture(imageNamed: imageName)
         self.text = text
         self.animation = animation
+        self.soundFX = soundFX
         super.init(texture: texture, color: .black, size: size)
         self.position = pos
-        
     }
-    
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

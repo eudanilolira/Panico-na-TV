@@ -141,9 +141,9 @@ class GameViewController: UIViewController {
             case .firstObject:
                 roomScene.subtitle.text = roomScene.firstObject.text
             case .secondObject:
-                roomScene.subtitle.text = roomScene.secondObject.text
+                roomScene.subtitle.text = roomScene.secondObject?.text
             case .thirdObject:
-                roomScene.subtitle.text = roomScene.thirdObject.text
+                roomScene.subtitle.text = roomScene.thirdObject?.text
             }
         }
 
