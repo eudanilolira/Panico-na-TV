@@ -32,7 +32,7 @@ final class Rooms {
         
 //
         
-        
+        //Mirror room
         let secondRoomObject = SceneObject(
             text: "Cair de moto e se ralar",
             imageName: "Espelho.jpg",
@@ -48,14 +48,22 @@ final class Rooms {
         secondRoomObject.setScale(0.3)
         
         let secondRoom = RoomScene(firstObject: secondRoomObject, backgroundName: "Quarto2.png")
-//
+
         
-        let firstObject1 = SceneObject(text: "Testando demais, vai dar certo", imageName: "Quarto", pos: CGPoint(x: 100, y: 300), size: CGSize(width: 100, height: 100))
-        let secondObject1 = SceneObject(text: "Testando", imageName: "Background", pos: CGPoint(x: 300, y: 300), size: CGSize(width: 100, height: 100))
-        let thirdObject1 = SceneObject(text: "Testando", imageName: "Quarto", pos: CGPoint(x: 600, y: 400), size: CGSize(width: 100, height: 100))
+        //Pablo room
+        let thirdRoomObject = SceneObject(
+            text: "aaaai, que susto bicha!",
+            imageName: "pablo.png",
+            pos: CGPoint(x: -500, y: 250),
+            size: CGSize(width: 668, height: 373),
+            animation: [
+                SKAction.moveBy(x: 2160, y: 0, duration: 3)
+            ],
+            soundFX: "yukee.mp3")
         
-        let roomScene1 = RoomScene(firstObject: firstObject1, secondObject: secondObject1, thirdObject: thirdObject1, backgroundName: "Background")
+        thirdRoomObject.setScale(1)
         
+        let thirdRoom = RoomScene(firstObject: thirdRoomObject, backgroundName: "QuartoSangue.png")
         
         var elaineTextures: [SKTexture] = []
                
@@ -72,10 +80,11 @@ final class Rooms {
 
 
         
-        cluesRooms.append(Room(isScary: false, roomScene: roomScene1))
-        scaryRooms.append(Room(isScary: true, roomScene: firstRoom))
+        cluesRooms.append(Room(isScary: false, roomScene: firstRoom))
         scaryRooms.append(Room(isScary: true, roomScene: secondRoom))
         scaryRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
+        scaryRooms.append(Room(isScary: true, roomScene: thirdRoom))
+
 
         
     }

@@ -52,22 +52,25 @@ class RoomScene: SKScene {
     override func sceneDidLoad() {
         let pianoSound = SKAction.repeatForever(SKAction.playSoundFileNamed("Piano Background.mp3", waitForCompletion: true))
         self.run(pianoSound, withKey: "musicSound")
-        print("OLHA A CENA \(self.name)")
         if let hasAnimation = firstObject.animation {
+            
+            self.subtitle.isHidden = true
+            self.exit.isHidden = true
             
             if let hasSoundFx = firstObject.soundFX {
                 
                 if(firstObject.loopSound ?? false){
+                    self.exit.isHidden = false
                     let sound = SKAction.repeatForever(SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: true))
                     self.run(sound, withKey: "scarySound")
+
+
                 }else{
                     let sound = SKAction.playSoundFileNamed(hasSoundFx, waitForCompletion: false)
                     self.run(sound, withKey: "scarySound")
                 }
             }
             
-            self.subtitle.isHidden = true
-            self.exit.isHidden = true
             
             firstObject.run(SKAction.sequence(hasAnimation), completion: {
                 self.subtitle.isHidden = false
@@ -140,7 +143,6 @@ class SceneObject: SKSpriteNode {
          self.loopSound = loopSound
          super.init(texture: texture, color: .black, size: size)
          self.position = pos
-        print("OLHA A object \(self.name)")
 
      }
     
