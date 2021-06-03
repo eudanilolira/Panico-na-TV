@@ -57,9 +57,26 @@ final class Rooms {
         let roomScene1 = RoomScene(firstObject: firstObject1, secondObject: secondObject1, thirdObject: thirdObject1, backgroundName: "Background")
         
         
+        var elaineTextures: [SKTexture] = []
+               
+               for i in 0...25 {
+                   let elaineTexture = SKTexture(imageNamed: "fr\(i).png")
+                   elaineTextures.append(elaineTexture)
+               }
+               
+               let elaineAnimation = SKAction.repeatForever(SKAction.animate(with: elaineTextures, timePerFrame: 0.1, resize: false, restore: true))
+               
+               let elaineObject = SceneObject(text: "", imageName: "fr0.png", pos: CGPoint(x: 500, y: 250), size: CGSize(width: 100, height: 160), animation: [elaineAnimation], soundFX: "gritinho.mp3", loopSound: true)
+               let elaineRoomScene = RoomScene(firstObject: elaineObject, backgroundName: "Quarto")
+
+
+
+        
         cluesRooms.append(Room(isScary: false, roomScene: roomScene1))
         scaryRooms.append(Room(isScary: true, roomScene: firstRoom))
         scaryRooms.append(Room(isScary: true, roomScene: secondRoom))
+        scaryRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
+
         
     }
     

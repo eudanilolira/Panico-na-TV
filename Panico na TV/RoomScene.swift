@@ -119,17 +119,19 @@ class RoomScene: SKScene {
 
 class SceneObject: SKSpriteNode {
     var text: String
-    var animation: [SKAction]? = nil
-    var soundFX: String?
-    
-    init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: [SKAction]? = nil, soundFX: String? = nil) {
-        let texture = SKTexture(imageNamed: imageName)
-        self.text = text
-        self.animation = animation
-        self.soundFX = soundFX
-        super.init(texture: texture, color: .black, size: size)
-        self.position = pos
-    }
+     var animation: [SKAction]? = nil
+     var soundFX: String?
+     var loopSound: Bool?
+     
+     init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: [SKAction]? = nil, soundFX: String? = nil, loopSound: Bool? = nil) {
+         let texture = SKTexture(imageNamed: imageName)
+         self.text = text
+         self.animation = animation
+         self.soundFX = soundFX
+         self.loopSound = loopSound
+         super.init(texture: texture, color: .black, size: size)
+         self.position = pos
+     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

@@ -116,6 +116,7 @@
 		0CF4E4A226610D9B00CF2973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E4A026610D9B00CF2973 /* Main.storyboard */; };
 		0CF4E4A426610D9C00CF2973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E4A326610D9C00CF2973 /* Assets.xcassets */; };
 		0CF4E4A726610D9C00CF2973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4E4A526610D9C00CF2973 /* LaunchScreen.storyboard */; };
+		869F8A3226691CA300416A0E /* gritinho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F8A3126691CA300416A0E /* gritinho.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -230,6 +231,7 @@
 		0CF4E4A326610D9C00CF2973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CF4E4A626610D9C00CF2973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CF4E4A826610D9C00CF2973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F8A3126691CA300416A0E /* gritinho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gritinho.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 				0C1AA0362668FE200019D14D /* cadeira_bamboo.jpg */,
 				0C9BA7E226664D0E00BE4760 /* Quarto.png */,
 				0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */,
+				869F8A3126691CA300416A0E /* gritinho.mp3 */,
 				0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */,
 				0CC9418A266501B1004721FF /* Background.png */,
 				0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */,
@@ -455,6 +458,7 @@
 				0C3D7C532667CFCE00EBE927 /* Hallway39.jpg in Resources */,
 				0C3D7C5D2667CFCE00EBE927 /* Hallway01.jpg in Resources */,
 				0C3D7C572667CFCE00EBE927 /* Hallway10.jpg in Resources */,
+				869F8A3226691CA300416A0E /* gritinho.mp3 in Resources */,
 				0C3D7C2F2667CFCE00EBE927 /* Hallway57.jpg in Resources */,
 				0C3D7C2D2667CFCE00EBE927 /* Hallway42.jpg in Resources */,
 				0C3D7C342667CFCE00EBE927 /* Hallway69.jpg in Resources */,
