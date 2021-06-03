@@ -33,6 +33,9 @@ class GameScene: SKScene {
         leftLabel = hallway!.childNode(withName: "leftRoomNumber") as! SKLabelNode
         rightLabel = hallway!.childNode(withName: "rightRoomNumber") as! SKLabelNode
         Rooms.shared.getNextRooms()
+        
+        leftLabel.fontSize = 150
+        rightLabel.fontSize = 150
     }
     
     override func update(_ currentTime: TimeInterval) {

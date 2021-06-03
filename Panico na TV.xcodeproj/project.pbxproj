@@ -9,6 +9,96 @@
 /* Begin PBXBuildFile section */
 		0C3D7BAB2667CB6B00EBE927 /* Background Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */; };
 		0C3D7BAD2667CC5200EBE927 /* Piano Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */; };
+		0C3D7C092667CFCE00EBE927 /* Hallway27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BAF2667CFCD00EBE927 /* Hallway27.jpg */; };
+		0C3D7C0A2667CFCE00EBE927 /* Hallway33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB02667CFCD00EBE927 /* Hallway33.jpg */; };
+		0C3D7C0B2667CFCE00EBE927 /* Hallway32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB12667CFCD00EBE927 /* Hallway32.jpg */; };
+		0C3D7C0C2667CFCE00EBE927 /* Hallway26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB22667CFCD00EBE927 /* Hallway26.jpg */; };
+		0C3D7C0D2667CFCE00EBE927 /* Hallway18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB32667CFCD00EBE927 /* Hallway18.jpg */; };
+		0C3D7C0E2667CFCE00EBE927 /* Hallway30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB42667CFCD00EBE927 /* Hallway30.jpg */; };
+		0C3D7C0F2667CFCE00EBE927 /* Hallway24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB52667CFCD00EBE927 /* Hallway24.jpg */; };
+		0C3D7C102667CFCE00EBE927 /* Hallway25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB62667CFCD00EBE927 /* Hallway25.jpg */; };
+		0C3D7C112667CFCE00EBE927 /* Hallway31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB72667CFCD00EBE927 /* Hallway31.jpg */; };
+		0C3D7C122667CFCE00EBE927 /* Hallway19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB82667CFCD00EBE927 /* Hallway19.jpg */; };
+		0C3D7C132667CFCE00EBE927 /* Hallway35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BB92667CFCD00EBE927 /* Hallway35.jpg */; };
+		0C3D7C142667CFCE00EBE927 /* Hallway21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBA2667CFCD00EBE927 /* Hallway21.jpg */; };
+		0C3D7C152667CFCE00EBE927 /* Hallway09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBB2667CFCD00EBE927 /* Hallway09.jpg */; };
+		0C3D7C162667CFCE00EBE927 /* Hallway08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBC2667CFCD00EBE927 /* Hallway08.jpg */; };
+		0C3D7C172667CFCE00EBE927 /* Hallway20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBD2667CFCD00EBE927 /* Hallway20.jpg */; };
+		0C3D7C182667CFCE00EBE927 /* Hallway34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBE2667CFCD00EBE927 /* Hallway34.jpg */; };
+		0C3D7C192667CFCE00EBE927 /* Hallway22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BBF2667CFCD00EBE927 /* Hallway22.jpg */; };
+		0C3D7C1A2667CFCE00EBE927 /* Hallway36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC02667CFCD00EBE927 /* Hallway36.jpg */; };
+		0C3D7C1B2667CFCE00EBE927 /* Hallway37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC12667CFCD00EBE927 /* Hallway37.jpg */; };
+		0C3D7C1C2667CFCE00EBE927 /* Hallway23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC22667CFCD00EBE927 /* Hallway23.jpg */; };
+		0C3D7C1D2667CFCE00EBE927 /* Hallway87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC32667CFCD00EBE927 /* Hallway87.jpg */; };
+		0C3D7C1E2667CFCE00EBE927 /* Hallway78.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC42667CFCD00EBE927 /* Hallway78.jpg */; };
+		0C3D7C1F2667CFCE00EBE927 /* Hallway44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC52667CFCD00EBE927 /* Hallway44.jpg */; };
+		0C3D7C202667CFCE00EBE927 /* Hallway50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC62667CFCD00EBE927 /* Hallway50.jpg */; };
+		0C3D7C212667CFCE00EBE927 /* Hallway51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC72667CFCD00EBE927 /* Hallway51.jpg */; };
+		0C3D7C222667CFCE00EBE927 /* Hallway45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC82667CFCD00EBE927 /* Hallway45.jpg */; };
+		0C3D7C232667CFCE00EBE927 /* Hallway79.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BC92667CFCD00EBE927 /* Hallway79.jpg */; };
+		0C3D7C242667CFCE00EBE927 /* Hallway86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCA2667CFCD00EBE927 /* Hallway86.jpg */; };
+		0C3D7C252667CFCE00EBE927 /* Hallway84.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCB2667CFCD00EBE927 /* Hallway84.jpg */; };
+		0C3D7C262667CFCE00EBE927 /* Hallway53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCC2667CFCD00EBE927 /* Hallway53.jpg */; };
+		0C3D7C272667CFCE00EBE927 /* Hallway47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCD2667CFCD00EBE927 /* Hallway47.jpg */; };
+		0C3D7C282667CFCE00EBE927 /* Hallway46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCE2667CFCD00EBE927 /* Hallway46.jpg */; };
+		0C3D7C292667CFCE00EBE927 /* Hallway52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BCF2667CFCD00EBE927 /* Hallway52.jpg */; };
+		0C3D7C2A2667CFCE00EBE927 /* Hallway85.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD02667CFCD00EBE927 /* Hallway85.jpg */; };
+		0C3D7C2B2667CFCE00EBE927 /* Hallway81.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD12667CFCD00EBE927 /* Hallway81.jpg */; };
+		0C3D7C2C2667CFCE00EBE927 /* Hallway56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD22667CFCD00EBE927 /* Hallway56.jpg */; };
+		0C3D7C2D2667CFCE00EBE927 /* Hallway42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD32667CFCD00EBE927 /* Hallway42.jpg */; };
+		0C3D7C2E2667CFCE00EBE927 /* Hallway43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD42667CFCD00EBE927 /* Hallway43.jpg */; };
+		0C3D7C2F2667CFCE00EBE927 /* Hallway57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD52667CFCD00EBE927 /* Hallway57.jpg */; };
+		0C3D7C302667CFCE00EBE927 /* Hallway80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD62667CFCD00EBE927 /* Hallway80.jpg */; };
+		0C3D7C312667CFCE00EBE927 /* Hallway82.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD72667CFCD00EBE927 /* Hallway82.jpg */; };
+		0C3D7C322667CFCE00EBE927 /* Hallway41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD82667CFCD00EBE927 /* Hallway41.jpg */; };
+		0C3D7C332667CFCE00EBE927 /* Hallway55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BD92667CFCD00EBE927 /* Hallway55.jpg */; };
+		0C3D7C342667CFCE00EBE927 /* Hallway69.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDA2667CFCD00EBE927 /* Hallway69.jpg */; };
+		0C3D7C352667CFCE00EBE927 /* Hallway68.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDB2667CFCD00EBE927 /* Hallway68.jpg */; };
+		0C3D7C362667CFCE00EBE927 /* Hallway54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDC2667CFCD00EBE927 /* Hallway54.jpg */; };
+		0C3D7C372667CFCE00EBE927 /* Hallway40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDD2667CFCD00EBE927 /* Hallway40.jpg */; };
+		0C3D7C382667CFCE00EBE927 /* Hallway83.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDE2667CFCD00EBE927 /* Hallway83.jpg */; };
+		0C3D7C392667CFCE00EBE927 /* Hallway59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BDF2667CFCD00EBE927 /* Hallway59.jpg */; };
+		0C3D7C3A2667CFCE00EBE927 /* Hallway65.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE02667CFCD00EBE927 /* Hallway65.jpg */; };
+		0C3D7C3B2667CFCE00EBE927 /* Hallway71.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE12667CFCD00EBE927 /* Hallway71.jpg */; };
+		0C3D7C3C2667CFCE00EBE927 /* Hallway70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE22667CFCD00EBE927 /* Hallway70.jpg */; };
+		0C3D7C3D2667CFCE00EBE927 /* Hallway64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE32667CFCD00EBE927 /* Hallway64.jpg */; };
+		0C3D7C3E2667CFCE00EBE927 /* Hallway58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE42667CFCD00EBE927 /* Hallway58.jpg */; };
+		0C3D7C3F2667CFCE00EBE927 /* Hallway72.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE52667CFCD00EBE927 /* Hallway72.jpg */; };
+		0C3D7C402667CFCE00EBE927 /* Hallway66.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE62667CFCD00EBE927 /* Hallway66.jpg */; };
+		0C3D7C412667CFCE00EBE927 /* Hallway67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE72667CFCD00EBE927 /* Hallway67.jpg */; };
+		0C3D7C422667CFCE00EBE927 /* Hallway73.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE82667CFCD00EBE927 /* Hallway73.jpg */; };
+		0C3D7C432667CFCE00EBE927 /* Hallway88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BE92667CFCD00EBE927 /* Hallway88.jpg */; };
+		0C3D7C442667CFCE00EBE927 /* Hallway77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BEA2667CFCD00EBE927 /* Hallway77.jpg */; };
+		0C3D7C452667CFCE00EBE927 /* Hallway63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BEB2667CFCD00EBE927 /* Hallway63.jpg */; };
+		0C3D7C462667CFCE00EBE927 /* Hallway62.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BEC2667CFCD00EBE927 /* Hallway62.jpg */; };
+		0C3D7C472667CFCE00EBE927 /* Hallway76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BED2667CFCD00EBE927 /* Hallway76.jpg */; };
+		0C3D7C482667CFCE00EBE927 /* Hallway89.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BEE2667CFCD00EBE927 /* Hallway89.jpg */; };
+		0C3D7C492667CFCE00EBE927 /* Hallway60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BEF2667CFCE00EBE927 /* Hallway60.jpg */; };
+		0C3D7C4A2667CFCE00EBE927 /* Hallway74.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF02667CFCE00EBE927 /* Hallway74.jpg */; };
+		0C3D7C4B2667CFCE00EBE927 /* Hallway48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF12667CFCE00EBE927 /* Hallway48.jpg */; };
+		0C3D7C4C2667CFCE00EBE927 /* Hallway49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF22667CFCE00EBE927 /* Hallway49.jpg */; };
+		0C3D7C4D2667CFCE00EBE927 /* Hallway75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF32667CFCE00EBE927 /* Hallway75.jpg */; };
+		0C3D7C4E2667CFCE00EBE927 /* Hallway61.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF42667CFCE00EBE927 /* Hallway61.jpg */; };
+		0C3D7C4F2667CFCE00EBE927 /* Hallway06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF52667CFCE00EBE927 /* Hallway06.jpg */; };
+		0C3D7C502667CFCE00EBE927 /* Hallway12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF62667CFCE00EBE927 /* Hallway12.jpg */; };
+		0C3D7C512667CFCE00EBE927 /* Hallway13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF72667CFCE00EBE927 /* Hallway13.jpg */; };
+		0C3D7C522667CFCE00EBE927 /* Hallway07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF82667CFCE00EBE927 /* Hallway07.jpg */; };
+		0C3D7C532667CFCE00EBE927 /* Hallway39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BF92667CFCE00EBE927 /* Hallway39.jpg */; };
+		0C3D7C542667CFCE00EBE927 /* Hallway11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFA2667CFCE00EBE927 /* Hallway11.jpg */; };
+		0C3D7C552667CFCE00EBE927 /* Hallway05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFB2667CFCE00EBE927 /* Hallway05.jpg */; };
+		0C3D7C562667CFCE00EBE927 /* Hallway04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFC2667CFCE00EBE927 /* Hallway04.jpg */; };
+		0C3D7C572667CFCE00EBE927 /* Hallway10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFD2667CFCE00EBE927 /* Hallway10.jpg */; };
+		0C3D7C582667CFCE00EBE927 /* Hallway38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFE2667CFCE00EBE927 /* Hallway38.jpg */; };
+		0C3D7C592667CFCE00EBE927 /* Hallway14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7BFF2667CFCE00EBE927 /* Hallway14.jpg */; };
+		0C3D7C5A2667CFCE00EBE927 /* Hallway00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C002667CFCE00EBE927 /* Hallway00.jpg */; };
+		0C3D7C5B2667CFCE00EBE927 /* Hallway28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C012667CFCE00EBE927 /* Hallway28.jpg */; };
+		0C3D7C5C2667CFCE00EBE927 /* Hallway29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C022667CFCE00EBE927 /* Hallway29.jpg */; };
+		0C3D7C5D2667CFCE00EBE927 /* Hallway01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C032667CFCE00EBE927 /* Hallway01.jpg */; };
+		0C3D7C5E2667CFCE00EBE927 /* Hallway15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C042667CFCE00EBE927 /* Hallway15.jpg */; };
+		0C3D7C5F2667CFCE00EBE927 /* Hallway03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C052667CFCE00EBE927 /* Hallway03.jpg */; };
+		0C3D7C602667CFCE00EBE927 /* Hallway17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C062667CFCE00EBE927 /* Hallway17.jpg */; };
+		0C3D7C612667CFCE00EBE927 /* Hallway16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C072667CFCE00EBE927 /* Hallway16.jpg */; };
+		0C3D7C622667CFCE00EBE927 /* Hallway02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7C082667CFCE00EBE927 /* Hallway02.jpg */; };
 		0C9BA7E126664B9100BE4760 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E026664B9100BE4760 /* Room.swift */; };
 		0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E226664D0E00BE4760 /* Quarto.png */; };
 		0CC941872664FED4004721FF /* Hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941862664FED4004721FF /* Hallway.swift */; };
@@ -29,6 +119,96 @@
 /* Begin PBXFileReference section */
 		0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background Music.mp3"; sourceTree = "<group>"; };
 		0C3D7BAC2667CC5200EBE927 /* Piano Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Piano Background.mp3"; sourceTree = "<group>"; };
+		0C3D7BAF2667CFCD00EBE927 /* Hallway27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway27.jpg; sourceTree = "<group>"; };
+		0C3D7BB02667CFCD00EBE927 /* Hallway33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway33.jpg; sourceTree = "<group>"; };
+		0C3D7BB12667CFCD00EBE927 /* Hallway32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway32.jpg; sourceTree = "<group>"; };
+		0C3D7BB22667CFCD00EBE927 /* Hallway26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway26.jpg; sourceTree = "<group>"; };
+		0C3D7BB32667CFCD00EBE927 /* Hallway18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway18.jpg; sourceTree = "<group>"; };
+		0C3D7BB42667CFCD00EBE927 /* Hallway30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway30.jpg; sourceTree = "<group>"; };
+		0C3D7BB52667CFCD00EBE927 /* Hallway24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway24.jpg; sourceTree = "<group>"; };
+		0C3D7BB62667CFCD00EBE927 /* Hallway25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway25.jpg; sourceTree = "<group>"; };
+		0C3D7BB72667CFCD00EBE927 /* Hallway31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway31.jpg; sourceTree = "<group>"; };
+		0C3D7BB82667CFCD00EBE927 /* Hallway19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway19.jpg; sourceTree = "<group>"; };
+		0C3D7BB92667CFCD00EBE927 /* Hallway35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway35.jpg; sourceTree = "<group>"; };
+		0C3D7BBA2667CFCD00EBE927 /* Hallway21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway21.jpg; sourceTree = "<group>"; };
+		0C3D7BBB2667CFCD00EBE927 /* Hallway09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway09.jpg; sourceTree = "<group>"; };
+		0C3D7BBC2667CFCD00EBE927 /* Hallway08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway08.jpg; sourceTree = "<group>"; };
+		0C3D7BBD2667CFCD00EBE927 /* Hallway20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway20.jpg; sourceTree = "<group>"; };
+		0C3D7BBE2667CFCD00EBE927 /* Hallway34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway34.jpg; sourceTree = "<group>"; };
+		0C3D7BBF2667CFCD00EBE927 /* Hallway22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway22.jpg; sourceTree = "<group>"; };
+		0C3D7BC02667CFCD00EBE927 /* Hallway36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway36.jpg; sourceTree = "<group>"; };
+		0C3D7BC12667CFCD00EBE927 /* Hallway37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway37.jpg; sourceTree = "<group>"; };
+		0C3D7BC22667CFCD00EBE927 /* Hallway23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway23.jpg; sourceTree = "<group>"; };
+		0C3D7BC32667CFCD00EBE927 /* Hallway87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway87.jpg; sourceTree = "<group>"; };
+		0C3D7BC42667CFCD00EBE927 /* Hallway78.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway78.jpg; sourceTree = "<group>"; };
+		0C3D7BC52667CFCD00EBE927 /* Hallway44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway44.jpg; sourceTree = "<group>"; };
+		0C3D7BC62667CFCD00EBE927 /* Hallway50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway50.jpg; sourceTree = "<group>"; };
+		0C3D7BC72667CFCD00EBE927 /* Hallway51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway51.jpg; sourceTree = "<group>"; };
+		0C3D7BC82667CFCD00EBE927 /* Hallway45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway45.jpg; sourceTree = "<group>"; };
+		0C3D7BC92667CFCD00EBE927 /* Hallway79.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway79.jpg; sourceTree = "<group>"; };
+		0C3D7BCA2667CFCD00EBE927 /* Hallway86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway86.jpg; sourceTree = "<group>"; };
+		0C3D7BCB2667CFCD00EBE927 /* Hallway84.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway84.jpg; sourceTree = "<group>"; };
+		0C3D7BCC2667CFCD00EBE927 /* Hallway53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway53.jpg; sourceTree = "<group>"; };
+		0C3D7BCD2667CFCD00EBE927 /* Hallway47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway47.jpg; sourceTree = "<group>"; };
+		0C3D7BCE2667CFCD00EBE927 /* Hallway46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway46.jpg; sourceTree = "<group>"; };
+		0C3D7BCF2667CFCD00EBE927 /* Hallway52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway52.jpg; sourceTree = "<group>"; };
+		0C3D7BD02667CFCD00EBE927 /* Hallway85.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway85.jpg; sourceTree = "<group>"; };
+		0C3D7BD12667CFCD00EBE927 /* Hallway81.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway81.jpg; sourceTree = "<group>"; };
+		0C3D7BD22667CFCD00EBE927 /* Hallway56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway56.jpg; sourceTree = "<group>"; };
+		0C3D7BD32667CFCD00EBE927 /* Hallway42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway42.jpg; sourceTree = "<group>"; };
+		0C3D7BD42667CFCD00EBE927 /* Hallway43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway43.jpg; sourceTree = "<group>"; };
+		0C3D7BD52667CFCD00EBE927 /* Hallway57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway57.jpg; sourceTree = "<group>"; };
+		0C3D7BD62667CFCD00EBE927 /* Hallway80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway80.jpg; sourceTree = "<group>"; };
+		0C3D7BD72667CFCD00EBE927 /* Hallway82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway82.jpg; sourceTree = "<group>"; };
+		0C3D7BD82667CFCD00EBE927 /* Hallway41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway41.jpg; sourceTree = "<group>"; };
+		0C3D7BD92667CFCD00EBE927 /* Hallway55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway55.jpg; sourceTree = "<group>"; };
+		0C3D7BDA2667CFCD00EBE927 /* Hallway69.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway69.jpg; sourceTree = "<group>"; };
+		0C3D7BDB2667CFCD00EBE927 /* Hallway68.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway68.jpg; sourceTree = "<group>"; };
+		0C3D7BDC2667CFCD00EBE927 /* Hallway54.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway54.jpg; sourceTree = "<group>"; };
+		0C3D7BDD2667CFCD00EBE927 /* Hallway40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway40.jpg; sourceTree = "<group>"; };
+		0C3D7BDE2667CFCD00EBE927 /* Hallway83.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway83.jpg; sourceTree = "<group>"; };
+		0C3D7BDF2667CFCD00EBE927 /* Hallway59.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway59.jpg; sourceTree = "<group>"; };
+		0C3D7BE02667CFCD00EBE927 /* Hallway65.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway65.jpg; sourceTree = "<group>"; };
+		0C3D7BE12667CFCD00EBE927 /* Hallway71.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway71.jpg; sourceTree = "<group>"; };
+		0C3D7BE22667CFCD00EBE927 /* Hallway70.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway70.jpg; sourceTree = "<group>"; };
+		0C3D7BE32667CFCD00EBE927 /* Hallway64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway64.jpg; sourceTree = "<group>"; };
+		0C3D7BE42667CFCD00EBE927 /* Hallway58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway58.jpg; sourceTree = "<group>"; };
+		0C3D7BE52667CFCD00EBE927 /* Hallway72.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway72.jpg; sourceTree = "<group>"; };
+		0C3D7BE62667CFCD00EBE927 /* Hallway66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway66.jpg; sourceTree = "<group>"; };
+		0C3D7BE72667CFCD00EBE927 /* Hallway67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway67.jpg; sourceTree = "<group>"; };
+		0C3D7BE82667CFCD00EBE927 /* Hallway73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway73.jpg; sourceTree = "<group>"; };
+		0C3D7BE92667CFCD00EBE927 /* Hallway88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway88.jpg; sourceTree = "<group>"; };
+		0C3D7BEA2667CFCD00EBE927 /* Hallway77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway77.jpg; sourceTree = "<group>"; };
+		0C3D7BEB2667CFCD00EBE927 /* Hallway63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway63.jpg; sourceTree = "<group>"; };
+		0C3D7BEC2667CFCD00EBE927 /* Hallway62.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway62.jpg; sourceTree = "<group>"; };
+		0C3D7BED2667CFCD00EBE927 /* Hallway76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway76.jpg; sourceTree = "<group>"; };
+		0C3D7BEE2667CFCD00EBE927 /* Hallway89.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway89.jpg; sourceTree = "<group>"; };
+		0C3D7BEF2667CFCE00EBE927 /* Hallway60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway60.jpg; sourceTree = "<group>"; };
+		0C3D7BF02667CFCE00EBE927 /* Hallway74.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway74.jpg; sourceTree = "<group>"; };
+		0C3D7BF12667CFCE00EBE927 /* Hallway48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway48.jpg; sourceTree = "<group>"; };
+		0C3D7BF22667CFCE00EBE927 /* Hallway49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway49.jpg; sourceTree = "<group>"; };
+		0C3D7BF32667CFCE00EBE927 /* Hallway75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway75.jpg; sourceTree = "<group>"; };
+		0C3D7BF42667CFCE00EBE927 /* Hallway61.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway61.jpg; sourceTree = "<group>"; };
+		0C3D7BF52667CFCE00EBE927 /* Hallway06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway06.jpg; sourceTree = "<group>"; };
+		0C3D7BF62667CFCE00EBE927 /* Hallway12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway12.jpg; sourceTree = "<group>"; };
+		0C3D7BF72667CFCE00EBE927 /* Hallway13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway13.jpg; sourceTree = "<group>"; };
+		0C3D7BF82667CFCE00EBE927 /* Hallway07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway07.jpg; sourceTree = "<group>"; };
+		0C3D7BF92667CFCE00EBE927 /* Hallway39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway39.jpg; sourceTree = "<group>"; };
+		0C3D7BFA2667CFCE00EBE927 /* Hallway11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway11.jpg; sourceTree = "<group>"; };
+		0C3D7BFB2667CFCE00EBE927 /* Hallway05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway05.jpg; sourceTree = "<group>"; };
+		0C3D7BFC2667CFCE00EBE927 /* Hallway04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway04.jpg; sourceTree = "<group>"; };
+		0C3D7BFD2667CFCE00EBE927 /* Hallway10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway10.jpg; sourceTree = "<group>"; };
+		0C3D7BFE2667CFCE00EBE927 /* Hallway38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway38.jpg; sourceTree = "<group>"; };
+		0C3D7BFF2667CFCE00EBE927 /* Hallway14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway14.jpg; sourceTree = "<group>"; };
+		0C3D7C002667CFCE00EBE927 /* Hallway00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway00.jpg; sourceTree = "<group>"; };
+		0C3D7C012667CFCE00EBE927 /* Hallway28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway28.jpg; sourceTree = "<group>"; };
+		0C3D7C022667CFCE00EBE927 /* Hallway29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway29.jpg; sourceTree = "<group>"; };
+		0C3D7C032667CFCE00EBE927 /* Hallway01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway01.jpg; sourceTree = "<group>"; };
+		0C3D7C042667CFCE00EBE927 /* Hallway15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway15.jpg; sourceTree = "<group>"; };
+		0C3D7C052667CFCE00EBE927 /* Hallway03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway03.jpg; sourceTree = "<group>"; };
+		0C3D7C062667CFCE00EBE927 /* Hallway17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway17.jpg; sourceTree = "<group>"; };
+		0C3D7C072667CFCE00EBE927 /* Hallway16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway16.jpg; sourceTree = "<group>"; };
+		0C3D7C082667CFCE00EBE927 /* Hallway02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hallway02.jpg; sourceTree = "<group>"; };
 		0C9BA7E026664B9100BE4760 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		0C9BA7E226664D0E00BE4760 /* Quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quarto.png; sourceTree = "<group>"; };
 		0CC941862664FED4004721FF /* Hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallway.swift; sourceTree = "<group>"; };
@@ -59,6 +239,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3D7BAE2667CFCD00EBE927 /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				0C3D7BAF2667CFCD00EBE927 /* Hallway27.jpg */,
+				0C3D7BB02667CFCD00EBE927 /* Hallway33.jpg */,
+				0C3D7BB12667CFCD00EBE927 /* Hallway32.jpg */,
+				0C3D7BB22667CFCD00EBE927 /* Hallway26.jpg */,
+				0C3D7BB32667CFCD00EBE927 /* Hallway18.jpg */,
+				0C3D7BB42667CFCD00EBE927 /* Hallway30.jpg */,
+				0C3D7BB52667CFCD00EBE927 /* Hallway24.jpg */,
+				0C3D7BB62667CFCD00EBE927 /* Hallway25.jpg */,
+				0C3D7BB72667CFCD00EBE927 /* Hallway31.jpg */,
+				0C3D7BB82667CFCD00EBE927 /* Hallway19.jpg */,
+				0C3D7BB92667CFCD00EBE927 /* Hallway35.jpg */,
+				0C3D7BBA2667CFCD00EBE927 /* Hallway21.jpg */,
+				0C3D7BBB2667CFCD00EBE927 /* Hallway09.jpg */,
+				0C3D7BBC2667CFCD00EBE927 /* Hallway08.jpg */,
+				0C3D7BBD2667CFCD00EBE927 /* Hallway20.jpg */,
+				0C3D7BBE2667CFCD00EBE927 /* Hallway34.jpg */,
+				0C3D7BBF2667CFCD00EBE927 /* Hallway22.jpg */,
+				0C3D7BC02667CFCD00EBE927 /* Hallway36.jpg */,
+				0C3D7BC12667CFCD00EBE927 /* Hallway37.jpg */,
+				0C3D7BC22667CFCD00EBE927 /* Hallway23.jpg */,
+				0C3D7BC32667CFCD00EBE927 /* Hallway87.jpg */,
+				0C3D7BC42667CFCD00EBE927 /* Hallway78.jpg */,
+				0C3D7BC52667CFCD00EBE927 /* Hallway44.jpg */,
+				0C3D7BC62667CFCD00EBE927 /* Hallway50.jpg */,
+				0C3D7BC72667CFCD00EBE927 /* Hallway51.jpg */,
+				0C3D7BC82667CFCD00EBE927 /* Hallway45.jpg */,
+				0C3D7BC92667CFCD00EBE927 /* Hallway79.jpg */,
+				0C3D7BCA2667CFCD00EBE927 /* Hallway86.jpg */,
+				0C3D7BCB2667CFCD00EBE927 /* Hallway84.jpg */,
+				0C3D7BCC2667CFCD00EBE927 /* Hallway53.jpg */,
+				0C3D7BCD2667CFCD00EBE927 /* Hallway47.jpg */,
+				0C3D7BCE2667CFCD00EBE927 /* Hallway46.jpg */,
+				0C3D7BCF2667CFCD00EBE927 /* Hallway52.jpg */,
+				0C3D7BD02667CFCD00EBE927 /* Hallway85.jpg */,
+				0C3D7BD12667CFCD00EBE927 /* Hallway81.jpg */,
+				0C3D7BD22667CFCD00EBE927 /* Hallway56.jpg */,
+				0C3D7BD32667CFCD00EBE927 /* Hallway42.jpg */,
+				0C3D7BD42667CFCD00EBE927 /* Hallway43.jpg */,
+				0C3D7BD52667CFCD00EBE927 /* Hallway57.jpg */,
+				0C3D7BD62667CFCD00EBE927 /* Hallway80.jpg */,
+				0C3D7BD72667CFCD00EBE927 /* Hallway82.jpg */,
+				0C3D7BD82667CFCD00EBE927 /* Hallway41.jpg */,
+				0C3D7BD92667CFCD00EBE927 /* Hallway55.jpg */,
+				0C3D7BDA2667CFCD00EBE927 /* Hallway69.jpg */,
+				0C3D7BDB2667CFCD00EBE927 /* Hallway68.jpg */,
+				0C3D7BDC2667CFCD00EBE927 /* Hallway54.jpg */,
+				0C3D7BDD2667CFCD00EBE927 /* Hallway40.jpg */,
+				0C3D7BDE2667CFCD00EBE927 /* Hallway83.jpg */,
+				0C3D7BDF2667CFCD00EBE927 /* Hallway59.jpg */,
+				0C3D7BE02667CFCD00EBE927 /* Hallway65.jpg */,
+				0C3D7BE12667CFCD00EBE927 /* Hallway71.jpg */,
+				0C3D7BE22667CFCD00EBE927 /* Hallway70.jpg */,
+				0C3D7BE32667CFCD00EBE927 /* Hallway64.jpg */,
+				0C3D7BE42667CFCD00EBE927 /* Hallway58.jpg */,
+				0C3D7BE52667CFCD00EBE927 /* Hallway72.jpg */,
+				0C3D7BE62667CFCD00EBE927 /* Hallway66.jpg */,
+				0C3D7BE72667CFCD00EBE927 /* Hallway67.jpg */,
+				0C3D7BE82667CFCD00EBE927 /* Hallway73.jpg */,
+				0C3D7BE92667CFCD00EBE927 /* Hallway88.jpg */,
+				0C3D7BEA2667CFCD00EBE927 /* Hallway77.jpg */,
+				0C3D7BEB2667CFCD00EBE927 /* Hallway63.jpg */,
+				0C3D7BEC2667CFCD00EBE927 /* Hallway62.jpg */,
+				0C3D7BED2667CFCD00EBE927 /* Hallway76.jpg */,
+				0C3D7BEE2667CFCD00EBE927 /* Hallway89.jpg */,
+				0C3D7BEF2667CFCE00EBE927 /* Hallway60.jpg */,
+				0C3D7BF02667CFCE00EBE927 /* Hallway74.jpg */,
+				0C3D7BF12667CFCE00EBE927 /* Hallway48.jpg */,
+				0C3D7BF22667CFCE00EBE927 /* Hallway49.jpg */,
+				0C3D7BF32667CFCE00EBE927 /* Hallway75.jpg */,
+				0C3D7BF42667CFCE00EBE927 /* Hallway61.jpg */,
+				0C3D7BF52667CFCE00EBE927 /* Hallway06.jpg */,
+				0C3D7BF62667CFCE00EBE927 /* Hallway12.jpg */,
+				0C3D7BF72667CFCE00EBE927 /* Hallway13.jpg */,
+				0C3D7BF82667CFCE00EBE927 /* Hallway07.jpg */,
+				0C3D7BF92667CFCE00EBE927 /* Hallway39.jpg */,
+				0C3D7BFA2667CFCE00EBE927 /* Hallway11.jpg */,
+				0C3D7BFB2667CFCE00EBE927 /* Hallway05.jpg */,
+				0C3D7BFC2667CFCE00EBE927 /* Hallway04.jpg */,
+				0C3D7BFD2667CFCE00EBE927 /* Hallway10.jpg */,
+				0C3D7BFE2667CFCE00EBE927 /* Hallway38.jpg */,
+				0C3D7BFF2667CFCE00EBE927 /* Hallway14.jpg */,
+				0C3D7C002667CFCE00EBE927 /* Hallway00.jpg */,
+				0C3D7C012667CFCE00EBE927 /* Hallway28.jpg */,
+				0C3D7C022667CFCE00EBE927 /* Hallway29.jpg */,
+				0C3D7C032667CFCE00EBE927 /* Hallway01.jpg */,
+				0C3D7C042667CFCE00EBE927 /* Hallway15.jpg */,
+				0C3D7C052667CFCE00EBE927 /* Hallway03.jpg */,
+				0C3D7C062667CFCE00EBE927 /* Hallway17.jpg */,
+				0C3D7C072667CFCE00EBE927 /* Hallway16.jpg */,
+				0C3D7C082667CFCE00EBE927 /* Hallway02.jpg */,
+			);
+			path = frame;
+			sourceTree = "<group>";
+		};
 		0CF4E48A26610D9A00CF2973 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +369,7 @@
 				0CC9418A266501B1004721FF /* Background.png */,
 				0C3D7BAA2667CB6B00EBE927 /* Background Music.mp3 */,
 				0CC941862664FED4004721FF /* Hallway.swift */,
+				0C3D7BAE2667CFCD00EBE927 /* frame */,
 				0CC9418C26650A78004721FF /* Rooms.swift */,
 				0CCED21826651AF8008563F2 /* FirstRoomScene.sks */,
 				0CCED21A26651B71008563F2 /* RoomScene.swift */,
@@ -157,16 +435,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3D7C0F2667CFCE00EBE927 /* Hallway24.jpg in Resources */,
+				0C3D7C152667CFCE00EBE927 /* Hallway09.jpg in Resources */,
+				0C3D7C0C2667CFCE00EBE927 /* Hallway26.jpg in Resources */,
+				0C3D7C0E2667CFCE00EBE927 /* Hallway30.jpg in Resources */,
+				0C3D7C0A2667CFCE00EBE927 /* Hallway33.jpg in Resources */,
+				0C3D7C4E2667CFCE00EBE927 /* Hallway61.jpg in Resources */,
+				0C3D7C122667CFCE00EBE927 /* Hallway19.jpg in Resources */,
+				0C3D7C462667CFCE00EBE927 /* Hallway62.jpg in Resources */,
+				0C3D7C5F2667CFCE00EBE927 /* Hallway03.jpg in Resources */,
+				0C3D7C262667CFCE00EBE927 /* Hallway53.jpg in Resources */,
+				0C3D7C532667CFCE00EBE927 /* Hallway39.jpg in Resources */,
+				0C3D7C5D2667CFCE00EBE927 /* Hallway01.jpg in Resources */,
+				0C3D7C572667CFCE00EBE927 /* Hallway10.jpg in Resources */,
+				0C3D7C2F2667CFCE00EBE927 /* Hallway57.jpg in Resources */,
+				0C3D7C2D2667CFCE00EBE927 /* Hallway42.jpg in Resources */,
+				0C3D7C342667CFCE00EBE927 /* Hallway69.jpg in Resources */,
+				0C3D7C1F2667CFCE00EBE927 /* Hallway44.jpg in Resources */,
+				0C3D7C162667CFCE00EBE927 /* Hallway08.jpg in Resources */,
 				0CF4E4A226610D9B00CF2973 /* Main.storyboard in Resources */,
+				0C3D7C132667CFCE00EBE927 /* Hallway35.jpg in Resources */,
+				0C3D7C4B2667CFCE00EBE927 /* Hallway48.jpg in Resources */,
+				0C3D7C562667CFCE00EBE927 /* Hallway04.jpg in Resources */,
+				0C3D7C1B2667CFCE00EBE927 /* Hallway37.jpg in Resources */,
 				0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */,
 				0CCED21926651AF8008563F2 /* FirstRoomScene.sks in Resources */,
+				0C3D7C1D2667CFCE00EBE927 /* Hallway87.jpg in Resources */,
+				0C3D7C432667CFCE00EBE927 /* Hallway88.jpg in Resources */,
+				0C3D7C182667CFCE00EBE927 /* Hallway34.jpg in Resources */,
+				0C3D7C222667CFCE00EBE927 /* Hallway45.jpg in Resources */,
+				0C3D7C242667CFCE00EBE927 /* Hallway86.jpg in Resources */,
 				0C3D7BAB2667CB6B00EBE927 /* Background Music.mp3 in Resources */,
+				0C3D7C172667CFCE00EBE927 /* Hallway20.jpg in Resources */,
+				0C3D7C4F2667CFCE00EBE927 /* Hallway06.jpg in Resources */,
+				0C3D7C4D2667CFCE00EBE927 /* Hallway75.jpg in Resources */,
+				0C3D7C4A2667CFCE00EBE927 /* Hallway74.jpg in Resources */,
+				0C3D7C2E2667CFCE00EBE927 /* Hallway43.jpg in Resources */,
+				0C3D7C612667CFCE00EBE927 /* Hallway16.jpg in Resources */,
+				0C3D7C372667CFCE00EBE927 /* Hallway40.jpg in Resources */,
+				0C3D7C552667CFCE00EBE927 /* Hallway05.jpg in Resources */,
+				0C3D7C292667CFCE00EBE927 /* Hallway52.jpg in Resources */,
+				0C3D7C0D2667CFCE00EBE927 /* Hallway18.jpg in Resources */,
 				0CF4E49926610D9B00CF2973 /* GameScene.sks in Resources */,
+				0C3D7C542667CFCE00EBE927 /* Hallway11.jpg in Resources */,
+				0C3D7C252667CFCE00EBE927 /* Hallway84.jpg in Resources */,
+				0C3D7C3C2667CFCE00EBE927 /* Hallway70.jpg in Resources */,
+				0C3D7C5B2667CFCE00EBE927 /* Hallway28.jpg in Resources */,
+				0C3D7C112667CFCE00EBE927 /* Hallway31.jpg in Resources */,
+				0C3D7C282667CFCE00EBE927 /* Hallway46.jpg in Resources */,
+				0C3D7C212667CFCE00EBE927 /* Hallway51.jpg in Resources */,
+				0C3D7C482667CFCE00EBE927 /* Hallway89.jpg in Resources */,
+				0C3D7C592667CFCE00EBE927 /* Hallway14.jpg in Resources */,
+				0C3D7C602667CFCE00EBE927 /* Hallway17.jpg in Resources */,
+				0C3D7C362667CFCE00EBE927 /* Hallway54.jpg in Resources */,
+				0C3D7C352667CFCE00EBE927 /* Hallway68.jpg in Resources */,
+				0C3D7C512667CFCE00EBE927 /* Hallway13.jpg in Resources */,
+				0C3D7C5A2667CFCE00EBE927 /* Hallway00.jpg in Resources */,
+				0C3D7C0B2667CFCE00EBE927 /* Hallway32.jpg in Resources */,
+				0C3D7C522667CFCE00EBE927 /* Hallway07.jpg in Resources */,
+				0C3D7C582667CFCE00EBE927 /* Hallway38.jpg in Resources */,
+				0C3D7C422667CFCE00EBE927 /* Hallway73.jpg in Resources */,
+				0C3D7C442667CFCE00EBE927 /* Hallway77.jpg in Resources */,
+				0C3D7C392667CFCE00EBE927 /* Hallway59.jpg in Resources */,
+				0C3D7C092667CFCE00EBE927 /* Hallway27.jpg in Resources */,
+				0C3D7C4C2667CFCE00EBE927 /* Hallway49.jpg in Resources */,
+				0C3D7C1A2667CFCE00EBE927 /* Hallway36.jpg in Resources */,
+				0C3D7C2B2667CFCE00EBE927 /* Hallway81.jpg in Resources */,
+				0C3D7C1C2667CFCE00EBE927 /* Hallway23.jpg in Resources */,
+				0C3D7C332667CFCE00EBE927 /* Hallway55.jpg in Resources */,
+				0C3D7C472667CFCE00EBE927 /* Hallway76.jpg in Resources */,
 				0C3D7BAD2667CC5200EBE927 /* Piano Background.mp3 in Resources */,
+				0C3D7C232667CFCE00EBE927 /* Hallway79.jpg in Resources */,
+				0C3D7C202667CFCE00EBE927 /* Hallway50.jpg in Resources */,
 				0CF4E4A426610D9C00CF2973 /* Assets.xcassets in Resources */,
+				0C3D7C5C2667CFCE00EBE927 /* Hallway29.jpg in Resources */,
+				0C3D7C312667CFCE00EBE927 /* Hallway82.jpg in Resources */,
+				0C3D7C502667CFCE00EBE927 /* Hallway12.jpg in Resources */,
 				0CC9418B266501B1004721FF /* Background.png in Resources */,
+				0C3D7C102667CFCE00EBE927 /* Hallway25.jpg in Resources */,
+				0C3D7C142667CFCE00EBE927 /* Hallway21.jpg in Resources */,
+				0C3D7C302667CFCE00EBE927 /* Hallway80.jpg in Resources */,
+				0C3D7C492667CFCE00EBE927 /* Hallway60.jpg in Resources */,
+				0C3D7C3B2667CFCE00EBE927 /* Hallway71.jpg in Resources */,
+				0C3D7C192667CFCE00EBE927 /* Hallway22.jpg in Resources */,
+				0C3D7C452667CFCE00EBE927 /* Hallway63.jpg in Resources */,
+				0C3D7C3F2667CFCE00EBE927 /* Hallway72.jpg in Resources */,
+				0C3D7C402667CFCE00EBE927 /* Hallway66.jpg in Resources */,
+				0C3D7C1E2667CFCE00EBE927 /* Hallway78.jpg in Resources */,
+				0C3D7C5E2667CFCE00EBE927 /* Hallway15.jpg in Resources */,
+				0C3D7C622667CFCE00EBE927 /* Hallway02.jpg in Resources */,
 				0CF4E4A726610D9C00CF2973 /* LaunchScreen.storyboard in Resources */,
+				0C3D7C272667CFCE00EBE927 /* Hallway47.jpg in Resources */,
 				0CF4E49B26610D9B00CF2973 /* Actions.sks in Resources */,
+				0C3D7C3D2667CFCE00EBE927 /* Hallway64.jpg in Resources */,
+				0C3D7C2A2667CFCE00EBE927 /* Hallway85.jpg in Resources */,
+				0C3D7C412667CFCE00EBE927 /* Hallway67.jpg in Resources */,
+				0C3D7C3E2667CFCE00EBE927 /* Hallway58.jpg in Resources */,
+				0C3D7C382667CFCE00EBE927 /* Hallway83.jpg in Resources */,
+				0C3D7C3A2667CFCE00EBE927 /* Hallway65.jpg in Resources */,
+				0C3D7C2C2667CFCE00EBE927 /* Hallway56.jpg in Resources */,
+				0C3D7C322667CFCE00EBE927 /* Hallway41.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

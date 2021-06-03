@@ -49,6 +49,14 @@ class RoomScene: SKScene {
         self.setupStyle()
         self.setupChildNodes()
     }
+    
+    override func sceneDidLoad() {
+        if let hasAnimation = firstObject.animation {
+            secondObject.isHidden = true
+            thirdObject.isHidden = true
+            firstObject.run(hasAnimation)
+        }
+    }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -91,17 +99,16 @@ class RoomScene: SKScene {
 
 class SceneObject: SKSpriteNode {
     var text: String
-    
-    init(text: String, imageName: String, pos: CGPoint, size: CGSize) {
+    var animation: SKAction? = nil
+    init(text: String, imageName: String, pos: CGPoint, size: CGSize, animation: SKAction? = nil) {
         let texture = SKTexture(imageNamed: imageName)
         self.text = text
+        self.animation = animation
         super.init(texture: texture, color: .black, size: size)
         self.position = pos
+        
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print("Testando o toque.")
-    }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

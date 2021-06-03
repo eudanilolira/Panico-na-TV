@@ -27,10 +27,13 @@ class GameViewController: UIViewController {
         }
     }
     
+    var walkAnimation: SKAction?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         goToHallway()
+        setupWalkAnimation()
         
         let backgroundSound = SKAudioNode(fileNamed: "Background Music.mp3")
         self.scene!.addChild(backgroundSound)
@@ -39,6 +42,17 @@ class GameViewController: UIViewController {
         let pianoBackground = SKAudioNode(fileNamed: "Piano Background.mp3")
         self.scene!.addChild(pianoBackground)
         pianoBackground.run(SKAction.play())
+    }
+    
+    func setupWalkAnimation(){
+        var textures: [SKTexture] = []
+        
+        for i in 1...89 {
+            let texture = SKTexture(imageNamed: "Hallway\(i).jpg")
+            textures.append(texture)
+        }
+        
+        self.walkAnimation = SKAction.animate(with: textures, timePerFrame: 0.01, resize: false, restore: true)
     }
     
     func goToHallway() {
@@ -89,6 +103,8 @@ class GameViewController: UIViewController {
         
         self.leftRoom = rooms.0
         self.rightRoom = rooms.1
+        
+        hallwayScene.hallway?.run(self.walkAnimation!)
     }
     
     @objc func swipeNavigation(sender: UIGestureRecognizer){
