@@ -103,6 +103,7 @@
 		0C9BA7E126664B9100BE4760 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E026664B9100BE4760 /* Room.swift */; };
 		0C9BA7E326664D0E00BE4760 /* Quarto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BA7E226664D0E00BE4760 /* Quarto.png */; };
 		0CA4D3D4266914E3003FA646 /* VideoQuebrando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */; };
+		0CA4D3D8266A45A7003FA646 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4D3D7266A45A7003FA646 /* StartScene.sks */; };
 		0CC941872664FED4004721FF /* Hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941862664FED4004721FF /* Hallway.swift */; };
 		0CC9418B266501B1004721FF /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9418A266501B1004721FF /* Background.png */; };
 		0CC9418D26650A78004721FF /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9418C26650A78004721FF /* Rooms.swift */; };
@@ -218,6 +219,7 @@
 		0C9BA7E026664B9100BE4760 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		0C9BA7E226664D0E00BE4760 /* Quarto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quarto.png; sourceTree = "<group>"; };
 		0CA4D3D3266914E3003FA646 /* VideoQuebrando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VideoQuebrando.mp3; sourceTree = "<group>"; };
+		0CA4D3D7266A45A7003FA646 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		0CC941862664FED4004721FF /* Hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallway.swift; sourceTree = "<group>"; };
 		0CC9418A266501B1004721FF /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		0CC9418C26650A78004721FF /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 				0CCED21826651AF8008563F2 /* FirstRoomScene.sks */,
 				0CCED21A26651B71008563F2 /* RoomScene.swift */,
 				0C9BA7E026664B9100BE4760 /* Room.swift */,
+				0CA4D3D7266A45A7003FA646 /* StartScene.sks */,
 			);
 			path = "Panico na TV";
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				0C3D7C3A2667CFCE00EBE927 /* Hallway65.jpg in Resources */,
 				0C3D7C2C2667CFCE00EBE927 /* Hallway56.jpg in Resources */,
 				0C3D7C322667CFCE00EBE927 /* Hallway41.jpg in Resources */,
+				0CA4D3D8266A45A7003FA646 /* StartScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

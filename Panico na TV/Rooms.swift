@@ -92,37 +92,36 @@ final class Rooms {
         fourthRoom.subtitle.fontSize = 20
 
         
-        cluesRooms.append(Room(isScary: false, roomScene: firstRoom))
-        scaryRooms.append(Room(isScary: true, roomScene: secondRoom))
-        scaryRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
-        scaryRooms.append(Room(isScary: true, roomScene: thirdRoom))
-        scaryRooms.append(Room(isScary: true, roomScene: fourthRoom))
-
-
-
-        
+        cluesRooms.append(Room(isScary: true, roomScene: firstRoom))
+        cluesRooms.append(Room(isScary: true, roomScene: secondRoom))
+        cluesRooms.append(Room(isScary: true, roomScene: elaineRoomScene))
+        cluesRooms.append(Room(isScary: true, roomScene: thirdRoom))
+        cluesRooms.append(Room(isScary: true, roomScene: fourthRoom))
     }
     
     func getNextRooms() -> (Room, Room) {
-        var returnLeftRoom: Room = getScaryRoom()
-        var returnRightRoom: Room = getScaryRoom()
+        var returnRightRoom: Room
         
-        let leftRoom = isScaryRoom()
-        let rightRoom = isScaryRoom()
-        
-        let clueRoom: Room = cluesRooms.first(where: { room in
+
+        let returnLeftRoom: Room = cluesRooms.first(where: { room in
             room.isOpen == false
         })!
         
-        if !leftRoom {
-            returnLeftRoom = clueRoom
-        } else if !rightRoom {
-            returnRightRoom = clueRoom
+        let leftRoomIndex = cluesRooms.firstIndex(where: { room in
+            room == returnLeftRoom
+        })
+        
+        if leftRoomIndex! >= cluesRooms.count - 1 {
+            returnRightRoom = returnLeftRoom
+        } else {
+            returnRightRoom = cluesRooms[leftRoomIndex! + 1]
         }
         
-        self.rightRoomNumber = returnRightRoom.number
         self.leftRoomNumber = returnLeftRoom.number
+        self.rightRoomNumber = returnRightRoom.number
         
+        print(returnLeftRoom.isOpen)
+        print(returnRightRoom.isOpen)
         return (returnLeftRoom, returnRightRoom)
     }
     

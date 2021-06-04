@@ -8,7 +8,12 @@
 import Foundation
 
 // Salas 666 e 111 são números fixos, que são as salas finais e a da pablo.
-class Room  {
+class Room: Equatable  {
+    
+    static func == (lhs: Room, rhs: Room) -> Bool {
+        lhs.number == rhs.number
+    }
+    
     var isOpen: Bool = false
     var isScary: Bool = false
     var number: Int = 000

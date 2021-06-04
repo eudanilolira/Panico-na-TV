@@ -14,6 +14,7 @@ class GameViewController: UIViewController {
     var scene: SKScene? = nil
     var leftRoom: Room?
     var rightRoom: Room?
+    var roomsOpen: Int = 0
     
     var hallwayScene: GameScene {
         get {
@@ -32,7 +33,24 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        goToHallway()
+        
+        if let scene = GKScene(fileNamed: "StartScene") {
+            if let sceneNode = scene.rootNode as! SKScene? {
+                
+                sceneNode.scaleMode = .aspectFill
+                self.scene = sceneNode
+                self.scene?.name = "StartScene"
+                
+                if let view = self.view as! SKView? {
+                    self.setupTapGestureRecognizer()
+                    view.presentScene(sceneNode)
+                    view.ignoresSiblingOrder = true
+                }
+            }
+        }
+        
+        
+        //goToHallway()
         setupWalkAnimation()
         
         let backgroundSound = SKAudioNode(fileNamed: "Background Music.mp3")
@@ -90,6 +108,7 @@ class GameViewController: UIViewController {
     }
     
     func setupTapGestureRecognizer(){
+        
         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(selectObject))
         self.view?.addGestureRecognizer(tapRecognizer)
     }
@@ -126,7 +145,14 @@ class GameViewController: UIViewController {
             if leftRoom != nil && rightRoom != nil {
                 
                 let roomScene = hallwayScene.selectedRoom == "left" ? self.leftRoom!.roomScene : self.rightRoom!.roomScene
-                roomScene.room?.isOpen = true
+                
+                if (hallwayScene.selectedRoom == "left") {
+                    self.leftRoom?.isOpen = true
+                } else {
+                    self.rightRoom?.isOpen = true
+                }
+                
+                roomsOpen += 1
                 
                 if let view = self.view as! SKView? {
                     self.scene = roomScene
@@ -134,10 +160,17 @@ class GameViewController: UIViewController {
                     view.ignoresSiblingOrder = true
                 }
             }
+        } else if self.scene!.name == "StartScene" {
+            goToHallway()
         } else {
             switch roomScene.selectedObject {
             case .exit:
-                goToHallway()
+                if roomsOpen >= 5 {
+                    //Tela inicial
+                } else {
+                    goToHallway()
+                }
+                
             case .firstObject:
                 roomScene.subtitle.text = roomScene.firstObject.text
             case .secondObject:
