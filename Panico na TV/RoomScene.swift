@@ -109,9 +109,10 @@ class RoomScene: SKScene {
         background.anchorPoint = CGPoint(x: 0, y: 0)
         background.position = CGPoint(x: 0, y: 0)
         
-        self.subtitle.position = CGPoint(x: frame.midX, y: 100)
-        self.subtitle.text = self.firstObject.text //CÓDIGO TEMPORARIO
+        self.subtitle.position = CGPoint(x: frame.midX, y: 50)
+        self.subtitle.text = self.firstObject.text
         self.subtitle.fontSize = 30
+        self.subtitle.numberOfLines = 4
         self.subtitle.fontColor = .white
         self.subtitle.zPosition = 10005
         
