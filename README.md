@@ -32,7 +32,6 @@
 
 * [Sobre o projeto](#sobre-o-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Gitflow](#git-flow)
 
 
 <!-- ABOUT THE PROJECT -->
