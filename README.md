@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/DaniloLira/Panico-na-TV">
-    <img src="assets/logo.png" alt="Logo" width="180" height="180">
+    <img src="assets/logo.JPG" alt="Logo" width="180" height="180">
   </a>
 
   <h3 align="center">Panico na TV</h3>
@@ -39,9 +39,9 @@
 ## Sobre o projeto
 O Pânico na TV é um aplicativo desenvolvido durante um challenge da Apple Developer Academy, voltado para Apple TV. Este é um jogo de terror com vários elementos cômicos e efeitos visuais, como tínhamos apenas duas semanas para o desenvolvimento deste jogo, decidimos utilizá-lo para aprender a criar esses efeitos e adaptar uma aplicação para uma tela tão grande quanto a de uma televisão
 
-| Corredor | Sala |
+| Corredor | Quarto |
 |----------|----------|
-| <img src="assets/corredor.png" alt="Corredor" width="406" height="203">  |  <img src="assets/sala.png" alt="Sala" width="406" height="203">  |
+| <img src="assets/corredor.png" alt="Corredor" width="406" height="203">  |  <img src="assets/quarto.png" alt="Quarto" width="406" height="203">  |
 
 
 ### Tecnologias utilizadas
